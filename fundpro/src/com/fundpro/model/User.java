@@ -3,11 +3,11 @@ package com.fundpro.model;
 public class User {
 	private String username;
 	private String password;
-	private String firstname;
-	private String lastname;
+	private String fullname;
 	private String email;
 	private String address;
-	private int phone;
+	private String contact1;
+	private String contact2;
 	public String getUsername() {
 		return username;
 	}
@@ -20,17 +20,12 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getFirstname() {
-		return firstname;
+	
+	public String getFullname() {
+		return fullname;
 	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
-	}
-	public String getLastname() {
-		return lastname;
-	}
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
+	public void setFullname(String fullname) {
+		this.fullname = fullname;
 	}
 	public String getEmail() {
 		return email;
@@ -44,10 +39,18 @@ public class User {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public int getPhone() {
-		return phone;
+	public String getContact1() {
+		return contact1;
 	}
-	public void setPhone(int phone) {
-		this.phone = phone;
+	public void setContact1(String contact1) {
+		this.contact1 = contact1;
 	}
+	public String getContact2() {
+		return contact2;
+	}
+	public void setContact2(String contact2) {
+		this.contact2 = contact2;
+	}
+	
+	
 }
