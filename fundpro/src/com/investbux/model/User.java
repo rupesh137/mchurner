@@ -1,4 +1,4 @@
-package com.fundpro.model;
+package com.investbux.model;
 
 public class User {
 	private String username;

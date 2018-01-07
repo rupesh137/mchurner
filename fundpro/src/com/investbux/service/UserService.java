@@ -1,7 +1,7 @@
-package com.fundpro.service;
+package com.investbux.service;
 
-import com.fundpro.model.Login;
-import com.fundpro.model.User;
+import com.investbux.model.Login;
+import com.investbux.model.User;
 
 public interface UserService {
 	User validateUser(Login login );

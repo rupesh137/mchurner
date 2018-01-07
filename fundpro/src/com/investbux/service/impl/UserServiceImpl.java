@@ -1,11 +1,11 @@
-package com.fundpro.service.impl;
+package com.investbux.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.fundpro.dao.UserDao;
-import com.fundpro.model.Login;
-import com.fundpro.model.User;
-import com.fundpro.service.UserService;
+import com.investbux.dao.UserDao;
+import com.investbux.model.Login;
+import com.investbux.model.User;
+import com.investbux.service.UserService;
 
 public class UserServiceImpl implements UserService {
 	@Autowired

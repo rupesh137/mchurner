@@ -1,7 +1,7 @@
-package com.fundpro.dao;
+package com.investbux.dao;
 
-import com.fundpro.model.Login;
-import com.fundpro.model.User;
+import com.investbux.model.Login;
+import com.investbux.model.User;
 
 public interface UserDao {
 	void register(User user);

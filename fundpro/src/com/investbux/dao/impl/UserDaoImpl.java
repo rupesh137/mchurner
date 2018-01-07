@@ -1,4 +1,4 @@
-package com.fundpro.dao.impl;
+package com.investbux.dao.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
-import com.fundpro.dao.UserDao;
-import com.fundpro.model.Login;
-import com.fundpro.model.User;
+import com.investbux.dao.UserDao;
+import com.investbux.model.Login;
+import com.investbux.model.User;
 
 public class UserDaoImpl implements UserDao {
 	@Autowired
