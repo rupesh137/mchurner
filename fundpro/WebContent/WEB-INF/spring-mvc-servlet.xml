@@ -11,11 +11,11 @@
     http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	
 	<import resource="applicationContext.xml" />
-	<context:component-scan base-package="com.fundpro" />
+	<context:component-scan base-package="com.investbux" />
 	<context:annotation-config />
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/fundproUI/" />
+		<property name="prefix" value="/WEB-INF/investbuxUI/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
