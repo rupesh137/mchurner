@@ -1,7 +1,7 @@
-package com.investbux.service;
+package com.mchurner.service;
 
-import com.investbux.model.Login;
-import com.investbux.model.User;
+import com.mchurner.model.Login;
+import com.mchurner.model.User;
 
 public interface UserService {
 	User validateUser(Login login );

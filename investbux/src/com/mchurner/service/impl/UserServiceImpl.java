@@ -1,11 +1,11 @@
-package com.investbux.service.impl;
+package com.mchurner.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.investbux.dao.UserDao;
-import com.investbux.model.Login;
-import com.investbux.model.User;
-import com.investbux.service.UserService;
+import com.mchurner.dao.UserDao;
+import com.mchurner.model.Login;
+import com.mchurner.model.User;
+import com.mchurner.service.UserService;
 
 public class UserServiceImpl implements UserService {
 	@Autowired

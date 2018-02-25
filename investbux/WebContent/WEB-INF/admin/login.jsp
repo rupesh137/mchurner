@@ -3,7 +3,7 @@
 
 <head>
     <title>Admin-Login</title>
-    <!-- <link href="../resources/img/favicon.ico" rel="shortcut icon" sizes="16x16 32x32" type="image/x-icon" /> -->
+    <link href="../resources/img/favicon.ico" rel="shortcut icon" sizes="16x16 32x32" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/icons/font-awesome/css/font-awesome.css">
@@ -14,15 +14,15 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/custom.responsive.css">
 </head>
 
-<body id="wrapper" class="vtech-body-cnt">
+<body id="wrapper" class="inbx-body-cnt">
     <div class="container">
         <div class="">
-            <div class="vtech-f-cnt">
-                <div class="vtech-f-logo"></div>
-                <div class="vtech-main-frm">
+            <div class="inbx-f-cnt">
+                <div class="inbx-f-logo"></div>
+                <div class="inbx-main-frm">
                     <div class="sign-in-form">
-                    <div class="vtech-from-title">Sign In</div>
-                    <p class="vtech-f-title">Enter Your Email ID And Password To Login</p>
+                    <div class="inbx-from-title">Sign In</div>
+                    <p class="inbx-f-title">Enter Your Email ID And Password To Login</p>
                     <%
                     	String message = (String)request.getAttribute("message");                    
                     	message = message!=null ? message :"";
@@ -38,7 +38,7 @@
                             <input type="password" id="frmpass" name="password" class="form-control pwd" required>
                             <label for="frmpass">Password</label>
                             <a href="javascript:void(0);" class="pull-right reveal"><i class="fa fa-eye"></i></a>
-                            <!-- <p class="font-small"><a href="javascript:;" class="vtech-b2 btn-fp">Forgot Password?</a></p>  -->                   
+                            <!-- <p class="font-small"><a href="javascript:;" class="inbx-b2 btn-fp">Forgot Password?</a></p>  -->                   
                         </div>
 
                         <div class="text-center1">
@@ -50,8 +50,8 @@
                 </div><!-- ./SignIn -->
                     <!-- SignUp -->
                     <div class="sign-up-form">
-                    <div class="vtech-from-title">Sign Up</div>
-                    <p class="vtech-f-title">Fill The Form Below To Sign Up</p>
+                    <div class="inbx-from-title">Sign Up</div>
+                    <p class="inbx-f-title">Fill The Form Below To Sign Up</p>
                     <form class="" name="signUpform">
                         <div class="md-form">
                             <input type="text" class="form-control" name="firstName" required />
@@ -83,8 +83,8 @@
                     </div><!-- ./SignUp -->
                     <!-- forgot-password -->
                     <div class="forgot-pass-form">
-                            <div class="vtech-from-title">Forgot Password</div>
-                            <p class="vtech-f-title">Enter Your Email ID To Forgot Password</p>
+                            <div class="inbx-from-title">Forgot Password</div>
+                            <p class="inbx-f-title">Enter Your Email ID To Forgot Password</p>
                             <form class="" name="signInForm" id="signInForm" >
                                 <div class="md-form">
                                     <input type="text" id="frmemail" class="form-control" required>

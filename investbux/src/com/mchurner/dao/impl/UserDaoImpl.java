@@ -1,4 +1,4 @@
-package com.investbux.dao.impl;
+package com.mchurner.dao.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
-import com.investbux.dao.UserDao;
-import com.investbux.model.Login;
-import com.investbux.model.User;
+import com.mchurner.dao.UserDao;
+import com.mchurner.model.Login;
+import com.mchurner.model.User;
 
 public class UserDaoImpl implements UserDao {
 	@Autowired

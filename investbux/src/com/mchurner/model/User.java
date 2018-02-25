@@ -1,4 +1,4 @@
-package com.investbux.model;
+package com.mchurner.model;
 
 public class User {
 	private String username;

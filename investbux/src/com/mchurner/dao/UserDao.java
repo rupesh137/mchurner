@@ -1,7 +1,7 @@
-package com.investbux.dao;
+package com.mchurner.dao;
 
-import com.investbux.model.Login;
-import com.investbux.model.User;
+import com.mchurner.model.Login;
+import com.mchurner.model.User;
 
 public interface UserDao {
 	void register(User user);
