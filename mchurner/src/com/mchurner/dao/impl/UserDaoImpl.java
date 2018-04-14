@@ -3,7 +3,6 @@ package com.mchurner.dao.impl;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
-import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -13,8 +12,6 @@ import com.mchurner.model.Login;
 import com.mchurner.model.User;
 
 public class UserDaoImpl implements UserDao {
-	@Autowired
-	DataSource datasource;
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 

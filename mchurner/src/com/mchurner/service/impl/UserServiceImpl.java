@@ -10,6 +10,7 @@ import com.mchurner.service.UserService;
 public class UserServiceImpl implements UserService {
 	@Autowired
 	UserDao userDao;
+	
 	@Override
 	public User validateUser(Login login) {
 		return userDao.validateUser(login);
