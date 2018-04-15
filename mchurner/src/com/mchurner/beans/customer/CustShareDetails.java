@@ -1,12 +1,13 @@
 package com.mchurner.beans.customer;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 public class CustShareDetails extends BaseBean{
 	private int shareId;
 	private int custId;
 	private int noOfShare;
-	private int eachSharePrice;
+	private BigDecimal eachSharePrice;
 	private Date purchaseDate;
 	
 	public int getShareId() {
@@ -27,10 +28,10 @@ public class CustShareDetails extends BaseBean{
 	public void setNoOfShare(int noOfShare) {
 		this.noOfShare = noOfShare;
 	}
-	public int getEachSharePrice() {
+	public BigDecimal getEachSharePrice() {
 		return eachSharePrice;
 	}
-	public void setEachSharePrice(int eachSharePrice) {
+	public void setEachSharePrice(BigDecimal eachSharePrice) {
 		this.eachSharePrice = eachSharePrice;
 	}
 	public Date getPurchaseDate() {

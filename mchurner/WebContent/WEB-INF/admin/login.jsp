@@ -3,15 +3,15 @@
 
 <head>
     <title>Admin-Login</title>
-    <link href="../resources/img/favicon.ico" rel="shortcut icon" sizes="16x16 32x32" type="image/x-icon" />
+    <link href="../resources/admin/img/favicon.ico" rel="shortcut icon" sizes="16x16 32x32" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/icons/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/admin/css/icons/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../resources/styles/compiled.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/animate.class">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/custom.responsive.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../resources/admin/styles/compiled.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/admin/css/animate.class">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/admin/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/admin/css/custom.responsive.css">
 </head>
 
 <body id="wrapper" class="inbx-body-cnt">
@@ -110,10 +110,10 @@
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugins/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugins/bootstrap/js/popper.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/compiled.min.js"></script>
-    <!-- <script type="text/javascript" src="../resources/scripts/wow.min.js"></script> -->
+    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/admin/js/compiled.min.js"></script>
+    <!-- <script type="text/javascript" src="../resources/admin/scripts/wow.min.js"></script> -->
     <script type="text/javascript" src="${pageContext.request.contextPath}/plugins/bootstrap/js/popper.min.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/custom_old.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/admin/js/custom_old.js"></script>
 <script>
     
 $(".reveal").on('click',function() {

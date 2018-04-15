@@ -1,5 +1,6 @@
 package com.mchurner.utils;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -21,7 +22,7 @@ public class RowMapperUtil {
 				shareDet = new CustShareDetails();
 				shareDet.setShareId((int) row.get("share_id"));
 				shareDet.setNoOfShare((int) row.get("no_of_share"));
-				shareDet.setEachSharePrice((int) row.get("each_share_price"));
+				shareDet.setEachSharePrice((BigDecimal) row.get("each_share_price"));
 				shareDet.setCustId((int) row.get("cust_id"));
 				shareDet.setPurchaseDate((Date) row.get("purchase_date"));
 				shareDet.setStatus((String) row.get("record_status"));

@@ -14,8 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/resources/css/colors/default-dark.css" id="theme" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/admin/css/style.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/admin/css/colors/default-dark.css" id="theme" rel="stylesheet">
 </head>
 
 <body class="fix-header card-no-border fix-sidebar">
@@ -105,13 +105,13 @@
     <script src="${pageContext.request.contextPath}/plugins/bootstrap/js/popper.min.js"></script>
     <script src="${pageContext.request.contextPath}/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="${pageContext.request.contextPath}/resources/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/perfect-scrollbar.jquery.min.js"></script>
     <!--Wave Effects -->
-    <script src="${pageContext.request.contextPath}/resources/js/waves.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="${pageContext.request.contextPath}/resources/js/sidebarmenu.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="${pageContext.request.contextPath}/resources/js/custom.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/custom.min.js"></script>
 </body>
 
 </html>

@@ -20,11 +20,11 @@
     <!--c3 CSS -->
     <link href="${pageContext.request.contextPath}/plugins/c3-master/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/admin/css/style.css" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
-    <link href="${pageContext.request.contextPath}/resources/css/pages/dashboard.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/admin/css/pages/dashboard.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
-    <link href="${pageContext.request.contextPath}/resources/css/colors/default-dark.css" id="theme" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/admin/css/colors/default-dark.css" id="theme" rel="stylesheet">
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
@@ -264,11 +264,11 @@
     <!-- slimscrollbar scrollbar JavaScript -->
     <script src="js/perfect-scrollbar.jquery.min.js"></script>
     <!--Wave Effects -->
-    <script src="${pageContext.request.contextPath}/resources/js/waves.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="${pageContext.request.contextPath}/resources/js/sidebarmenu.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="${pageContext.request.contextPath}/resources/js/custom.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/custom.min.js"></script>
     
     <script src="${pageContext.request.contextPath}/plugins/chartist-js/dist/chartist.min.js"></script>
     <script src="${pageContext.request.contextPath}/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
@@ -276,7 +276,7 @@
     <script src="${pageContext.request.contextPath}/plugins/d3/d3.min.js"></script>
     <script src="${pageContext.request.contextPath}/plugins/c3-master/c3.min.js"></script>
     <!-- Chart JS -->
-    <script src="${pageContext.request.contextPath}/resources/js/dashboard.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/dashboard.js"></script>
 </body>
 
 </html>

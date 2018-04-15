@@ -21,4 +21,6 @@
 	<bean id="userDao" class="com.mchurner.dao.impl.UserDaoImpl" />
 	<bean id="customerService" class="com.mchurner.service.impl.CustomerServiceImpl" />
 	<bean id="customerDao" class="com.mchurner.dao.impl.CustomerDaoImpl" />
+	<bean id="accountService" class="com.mchurner.service.impl.CustAccountServiceImpl" />
+	<bean id="accDao" class="com.mchurner.dao.impl.CustAccountDaoImpl" />
 </beans>
