@@ -26,7 +26,7 @@
     <!-- You can change the theme colors from here -->
     <link href="${pageContext.request.contextPath}/resources/admin/css/colors/default-dark.css" id="theme" rel="stylesheet">
     
-    <link href="${pageContext.request.contextPath}/resources/admin/css/darkblue.min.css" rel="stylesheet">
+
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
