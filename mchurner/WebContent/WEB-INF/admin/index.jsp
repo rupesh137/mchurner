@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="${pageContext.request.contextPath}/images/favicon.png">
-    <title>Future Return</title>
+    <title>Mchuner</title>
     <!-- Bootstrap Core CSS -->
     <link href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- This page CSS -->
@@ -25,6 +25,8 @@
     <link href="${pageContext.request.contextPath}/resources/admin/css/pages/dashboard.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="${pageContext.request.contextPath}/resources/admin/css/colors/default-dark.css" id="theme" rel="stylesheet">
+    
+    <link href="${pageContext.request.contextPath}/resources/admin/css/darkblue.min.css" rel="stylesheet">
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
