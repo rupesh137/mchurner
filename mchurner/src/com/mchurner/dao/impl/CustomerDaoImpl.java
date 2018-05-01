@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.mchurner.beans.customer.AddressBean;
 import com.mchurner.beans.customer.CustPersonalDetailsBean;
 import com.mchurner.beans.customer.CustShareDetails;
+import com.mchurner.beans.customer.FDAccountBean;
 import com.mchurner.constants.GeneralConstants;
 import com.mchurner.constants.MchurnerConstants;
 import com.mchurner.dao.CustomerDao;
@@ -122,5 +123,13 @@ public class CustomerDaoImpl implements CustomerDao {
 		List<Map<String, Object>> rowList=jdbcTemplate.queryForList(query, custId);
 		return RowMapperUtil.getShareList(rowList);
 		
+	}
+
+	@Override
+	public List<FDAccountBean> getFDDetails(String custId) {
+		String query = "select fd.fd_acc_id, fd.cust_id, fd.scheme_master_id,fd.fd_account_no, sch.deposit_term, fd.start_date, fd.maturity_date,sch.interest_rate, fd.deposit_amount, fd.record_status from "
+				+ "FD_ACCOUNT_DETAILS fd join SCHEME_MASTER sch ON fd.scheme_master_id = sch.scheme_master_id where fd.cust_id=?";
+		List<Map<String, Object>> rowList=jdbcTemplate.queryForList(query, custId);
+		return RowMapperUtil.getFDDetailList(rowList);
 	}
 }

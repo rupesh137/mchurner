@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.logging.Logger;
 
 import com.mchurner.beans.customer.CustShareDetails;
+import com.mchurner.beans.customer.FDAccountBean;
 
 public class RowMapperUtil {
 	
@@ -30,5 +31,27 @@ public class RowMapperUtil {
 			}
 		}
 		return shareList;
+	}
+	
+	public static List<FDAccountBean> getFDDetailList(List<Map<String, Object>> rows){
+		List<FDAccountBean> fdList = new ArrayList<FDAccountBean>();
+		FDAccountBean FDDet = new FDAccountBean();
+		if(rows != null && rows.size()>0){
+			for (Map<String, Object> row : rows) {
+				FDDet = new FDAccountBean();
+				FDDet.setFdAccId((Integer) row.get("fd_acc_id"));
+				FDDet.setAccountNo((String) row.get("fd_account_no"));
+				FDDet.setTenure((Integer) row.get("deposit_term"));
+				FDDet.setCustId((Integer) row.get("cust_id"));
+				FDDet.setStartDate((Date) row.get("start_date"));
+				FDDet.setMaturityDate((Date) row.get("maturity_date"));
+				FDDet.setInterestRate((BigDecimal) row.get("interest_rate"));
+				FDDet.setDepositAmt((BigDecimal) row.get("deposit_amount"));
+				FDDet.setStatus((String) row.get("record_status"));
+				FDDet.setSchemeId((Integer)row.get("scheme_master_id"));
+				fdList.add(FDDet);
+			}
+		}
+		return fdList;
 	}
 }

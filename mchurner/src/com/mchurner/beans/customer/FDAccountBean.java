@@ -2,31 +2,33 @@ package com.mchurner.beans.customer;
 
 import java.math.BigDecimal;
 import java.util.Date;
-import com.mchurner.utils.JsonDateSerializer;
+
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.mchurner.utils.JsonDateSerializer;
 
 public class FDAccountBean extends BaseBean{
-	private int fdAccId;
-	private int custId;
+	private Integer fdAccId;
+	private Integer custId;
 	private String accountNo;
-	private int tenure;
-	//TODO:Not working
-	//@JsonSerialize (using = JsonDateSerializer.class)
+	private Integer tenure;
+	@JsonSerialize (using = JsonDateSerializer.class)
 	private Date startDate;
-	//@JsonSerialize (using = JsonDateSerializer.class)
+	@JsonSerialize (using = JsonDateSerializer.class)
 	private Date maturityDate;
-	private float interestRate;
+	private BigDecimal interestRate;
 	private BigDecimal depositAmt;
-	public int getFdAccId() {
+	private Integer schemeId;
+	
+	public Integer getFdAccId() {
 		return fdAccId;
 	}
-	public void setFdAccId(int fdAccId) {
+	public void setFdAccId(Integer fdAccId) {
 		this.fdAccId = fdAccId;
 	}
-	public int getCustId() {
+	public Integer getCustId() {
 		return custId;
 	}
-	public void setCustId(int custId) {
+	public void setCustId(Integer custId) {
 		this.custId = custId;
 	}
 	public String getAccountNo() {
@@ -35,10 +37,10 @@ public class FDAccountBean extends BaseBean{
 	public void setAccountNo(String accountNo) {
 		this.accountNo = accountNo;
 	}
-	public int getTenure() {
+	public Integer getTenure() {
 		return tenure;
 	}
-	public void setTenure(int tenure) {
+	public void setTenure(Integer tenure) {
 		this.tenure = tenure;
 	}
 	public Date getStartDate() {
@@ -53,10 +55,10 @@ public class FDAccountBean extends BaseBean{
 	public void setMaturityDate(Date maturityDate) {
 		this.maturityDate = maturityDate;
 	}
-	public float getInterestRate() {
+	public BigDecimal getInterestRate() {
 		return interestRate;
 	}
-	public void setInterestRate(float interestRate) {
+	public void setInterestRate(BigDecimal interestRate) {
 		this.interestRate = interestRate;
 	}
 	public BigDecimal getDepositAmt() {
@@ -64,6 +66,12 @@ public class FDAccountBean extends BaseBean{
 	}
 	public void setDepositAmt(BigDecimal depositAmt) {
 		this.depositAmt = depositAmt;
+	}
+	public Integer getSchemeId() {
+		return schemeId;
+	}
+	public void setSchemeId(Integer schemeId) {
+		this.schemeId = schemeId;
 	}
 	
 	

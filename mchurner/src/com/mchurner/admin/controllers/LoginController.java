@@ -1,4 +1,4 @@
-package com.mchurner.controllers;
+package com.mchurner.admin.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

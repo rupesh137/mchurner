@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import com.mchurner.beans.ResponseBean;
 import com.mchurner.beans.customer.CustPersonalDetailsBean;
 import com.mchurner.beans.customer.CustShareDetails;
+import com.mchurner.beans.customer.FDAccountBean;
 import com.mchurner.dao.CustomerDao;
 import com.mchurner.service.CustomerService;
 
@@ -59,5 +60,12 @@ public class CustomerServiceImpl implements CustomerService{
 		ResponseBean resp;
 		List<CustShareDetails> shreBean = customerDao.getShareDetails(custId);	
 		return shreBean;
+	}
+	
+	@Override
+	public List<FDAccountBean> getFDDetails(String custId) {
+		ResponseBean resp;
+		List<FDAccountBean> fdBean = customerDao.getFDDetails(custId);	
+		return fdBean;
 	}
 }

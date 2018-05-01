@@ -25,8 +25,8 @@ public class CustAccountDaoImpl implements CustAccountDao {
 	@Override
 	@Transactional
 	public boolean createFDAcc(FDAccountBean fdBean) {
-		String query = "insert into FD_ACCOUNT_DETAILS(cust_id, fd_account_no, tenure, start_date, maturity_date,interest_rate,deposit_amount,created_on, record_status)"
-				+ "values(?,?,?,?,?,?,?,?,?)";
+		String query = "insert into FD_ACCOUNT_DETAILS(cust_id,scheme_master_id, fd_account_no, start_date, maturity_date,deposit_amount,created_on, record_status)"
+				+ "values(?,?,?,?,?,?,?,?)";
 		
 		KeyHolder keyHolder = new GeneratedKeyHolder();
 
@@ -34,15 +34,17 @@ public class CustAccountDaoImpl implements CustAccountDao {
 		  new PreparedStatementCreator() {
 		    public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {
 		    	PreparedStatement pst = connection.prepareStatement(query, new String[] {"fd_acc_id"});
-		    	 pst.setInt(1, fdBean.getCustId());
-		    	 pst.setInt(2, fdBean.getFdAccId());
-		    	 pst.setInt(3, fdBean.getTenure());
-		    	 pst.setDate(4, new Date(fdBean.getStartDate().getTime()));
-		    	 pst.setDate(5, new Date(fdBean.getMaturityDate().getTime()));
-		    	 pst.setFloat(6, fdBean.getInterestRate());
-		    	 pst.setBigDecimal(7, fdBean.getDepositAmt());
-		    	 pst.setTimestamp(8, DateUtil.getCurrentSQLTimeStamp());
-		    	 pst.setString(9, GeneralConstants.Y);
+		    	 int i = 1;
+		    	 pst.setInt(i++, fdBean.getCustId());
+		    	 pst.setInt(i++, fdBean.getSchemeId());
+		    	 pst.setInt(i++, fdBean.getFdAccId());
+		    	 //pst.setInt(i++, fdBean.getTenure());
+		    	 pst.setDate(i++, new Date(fdBean.getStartDate().getTime()));
+		    	 pst.setDate(i++, new Date(fdBean.getMaturityDate().getTime()));
+		    	 //pst.setBigDecimal(i++, fdBean.getInterestRate());
+		    	 pst.setBigDecimal(i++, fdBean.getDepositAmt());
+		    	 pst.setTimestamp(i++, DateUtil.getCurrentSQLTimeStamp());
+		    	 pst.setString(i++, GeneralConstants.Y);
 		    	 
 		    	return pst;
 		    }
