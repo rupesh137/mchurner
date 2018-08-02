@@ -20,7 +20,7 @@ public class LoginController {
 	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView showLogin(HttpServletRequest request, HttpServletResponse response) {
-		ModelAndView mav = new ModelAndView("login");
+		ModelAndView mav = new ModelAndView("admin/login");
 		mav.addObject("login", new Login());
 		return mav;
 	}
@@ -31,9 +31,9 @@ public class LoginController {
 		ModelAndView mav = null;
 		User user = userService.validateUser(login);
 		if (null != user) {
-			mav = new ModelAndView("index");
+			mav = new ModelAndView("admin/index");
 		} else {
-			mav = new ModelAndView("login");
+			mav = new ModelAndView("admin/login");
 			mav.addObject("message", "Username or Password is wrong!!");
 		}
 		return mav;
@@ -41,7 +41,7 @@ public class LoginController {
 	
 	@RequestMapping(value = "/user", method = RequestMethod.GET)
 	public ModelAndView user(HttpServletRequest request, HttpServletResponse response) {
-		ModelAndView mav = new ModelAndView("pages-profile");
+		ModelAndView mav = new ModelAndView("admin/pages-profile");
 		
 		return mav;
 	}
@@ -51,7 +51,7 @@ public class LoginController {
 			@ModelAttribute("user") User user) {
 		ModelAndView mav = null;
 		userService.updateUserDetails(user);
-		mav = new ModelAndView("pages-profile");
+		mav = new ModelAndView("admin/pages-profile");
 		mav.addObject("message", "User updated successfully");
 		
 		return mav;

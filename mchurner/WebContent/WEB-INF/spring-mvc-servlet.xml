@@ -11,22 +11,24 @@
     http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	
 	<import resource="applicationContext.xml" />
-	<context:component-scan base-package="com.investbux" />
+	<context:component-scan base-package="com.mchurner" />
 	<context:annotation-config />
+	<mvc:annotation-driven />
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/admin/" />
+		<property name="prefix" value="/WEB-INF/" />
 		<property name="suffix" value=".jsp" />
-	</bean>
-	<bean
-		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/customer/" />
-		<property name="suffix" value=".jsp" />
-	</bean>
+	</bean>	
+	
+	<!-- Customer pages -->
+	<mvc:resources mapping="/custresources/**" location="/resources/customer/"/>
+	
+		
+	<!-- Admin pages -->
 	<mvc:resources mapping="/resources/**" location="/resources/admin"/>	
 	<mvc:resources mapping="/plugins/**" location="/assets/plugins/"/>
 	<mvc:resources mapping="/images/**" location="/assets/images/"/>
-	<mvc:resources mapping="/custresources/**" location="/resources/customer"/>
+	<mvc:resources mapping="/cview/**" location="/WEB-INF/customer/"/>
 	
-	<mvc:annotation-driven />
+	
 </beans>
