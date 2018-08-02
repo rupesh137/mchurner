@@ -147,6 +147,8 @@ and demonstrated in every way we operate.</p>
     </div>
     
  <%@ include file="footer.jsp" %>
+<<<<<<< HEAD
+=======
 	
 	<div class="lbOverlay">		
 		<div class="lightBox"></div>
@@ -213,6 +215,7 @@ and demonstrated in every way we operate.</p>
 		</div>
 	</div>
 	
+>>>>>>> fe1b8ec291d054ba1ee39743a5378be5a7c2f92c
 </div>
 </body>
 </html>

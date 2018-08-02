@@ -76,11 +76,33 @@
 			</div>
 		</div>
 		
+<<<<<<< HEAD
+		<div class="formContainer Register" ng-app="mchurnerApp" ng-controller="signupController">
+=======
 		<div class="formContainer Register">
+>>>>>>> fe1b8ec291d054ba1ee39743a5378be5a7c2f92c
 			<div class="fcHeader">Register</div>
 			<div class="fcData">
 				<div class="form-group">
 					<p class="formError">This fields are mandatory</p>
+<<<<<<< HEAD
+					<input type="name" class="form-control" id="name" placeholder="Name" ng-model="user.firstName">
+				</div>
+				<div class="form-group">
+					<p class="formError">This fields are mandatory</p>
+					<input type="mobile" class="form-control" id="mobile" placeholder="Mobile" ng-model="user.mobileNo">
+				</div>
+				<div class="form-group">
+					<p class="formError">This fields are mandatory</p>
+					<input type="email" class="form-control" id="email" placeholder="Email" ng-model="user.emailIds">
+				</div>
+				<div class="form-group">
+					<p class="formError">This fields are mandatory</p>
+					<input type="Name" class="form-control" id="refname" placeholder="Referral Name" ng-model="user.referrerCode">
+				</div>
+				<div class="submitBtn">
+					<input value="SUBMIT" class="" type="button" ng-click="saveUserDetails(user)">
+=======
 					<input type="name" class="form-control" id="name" placeholder="Name">
 				</div>
 				<div class="form-group">
@@ -97,6 +119,7 @@
 				</div>
 				<div class="submitBtn">
 					<input value="SUBMIT" class="" type="button">
+>>>>>>> fe1b8ec291d054ba1ee39743a5378be5a7c2f92c
 				</div>
 				<p>Have an account with us</p>
 				<a href="#" class="signIn">Sign in</a>
