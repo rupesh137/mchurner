@@ -1,4 +1,9 @@
 eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/customer/Loan_against_LIC_Policy.jsp=UTF-8
 encoding//WebContent/WEB-INF/customer/home.jsp=UTF-8
+encoding//WebContent/WEB-INF/customer/mortgage\ _loan.jsp=UTF-8
+encoding//WebContent/WEB-INF/customer/ourproducts_fd.jsp=UTF-8
+encoding//WebContent/WEB-INF/customer/ourproducts_recurring.jsp=UTF-8
+encoding//WebContent/WEB-INF/customer/vehicle_loan.jsp=UTF-8
 encoding/<project>=UTF-8
 encoding/src=UTF-8
