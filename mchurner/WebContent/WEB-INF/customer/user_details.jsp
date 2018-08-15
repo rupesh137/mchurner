@@ -1,21 +1,21 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mchurner</title>
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/style.css">
 
-<script type="text/javascript" language="javascript" src="js/jqueryMin.js"></script>
-<script type="text/javascript" language="javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" language="javascript" src="js/custom.js"></script>
+<script type="text/javascript" language="javascript" src="${pageContext.request.contextPath}/custresources/js/jqueryMin.js"></script>
+<script type="text/javascript" language="javascript" src="${pageContext.request.contextPath}/custresources/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="${pageContext.request.contextPath}/custresources/js/custom.js"></script>
 
 <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="${pageContext.request.contextPath}/custresources/js/html5shiv.min.js"></script>
+    <script src="${pageContext.request.contextPath}/custresources/js/respond.min.js"></script>
 <![endif]-->
 
 </head>
@@ -25,7 +25,7 @@
     	  <div class="container">
           	<div class="row">
 				<div class="logo pull-left">
-          			<a href="#page-top"><img src="images/logo.png" alt="" title=""></a>
+          			<a href="#page-top"><img src="${pageContext.request.contextPath}/custresources/images/logo.png" alt="" title=""></a>
           		</div>
 				<div class="contNo_mobl">
 					    <span><a href="javascript:void(0)">Refer and Earn</a></span>
@@ -37,7 +37,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-              		<!-- <a href="#page-top" class="navbar-brand">Logo <img src="images/White_Stone.png" alt="" title=""></a> -->
+              		<!-- <a href="#page-top" class="navbar-brand">Logo <img src="${pageContext.request.contextPath}/custresources/images/White_Stone.png" alt="" title=""></a> -->
 					<div class="loginHold_mobl">
                            <a href="#">Login</a>
 						   <a href="#">Registration</a>						   
@@ -48,8 +48,11 @@
                   <ul class="nav navbar-nav deviceNav">
                      <li>
 					    <div class="userName">
-                           <a href="#"><i><img src="images/user.png"></i>Kunal Chandane</a> 				   
+                           <a href="#"><i><img src="${pageContext.request.contextPath}/custresources/images/user.png"></i>Kunal Chandane</a> 				   
 						</div>
+						<div class="ddBox">
+						    <span>Logout</span>
+						 </div>
                     </li>
 					<li>
 					 	<a href="refer_and_earn.html" style="color:#177ba9;">Refer and Earn</a>
@@ -64,7 +67,7 @@
     	<div class="container-fluid">
                     <div class="row">
                         <div class="innerBanImg abtImg">
-                        	<img alt="" src="images/banner_ourproduct_FD.jpg" class="img-responsive">
+                        	<img alt="" src="${pageContext.request.contextPath}/custresources/images/banner_ourproduct_FD.jpg" class="img-responsive">
                         </div>
                    </div>
         </div>
@@ -346,50 +349,7 @@
 	</div>
 
     
-    <div class="footerNav"> 
-	    <div class="container">
-        <div class="row">
-		  <div class="col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-        	<div class="col-sm-4 col-md-4 col-lg-4">
-            	<div class="fLogo">
-            		<img src="images/logo.png">
-            	</div>               
-            </div>
-			
-			<div class="col-sm-4 col-md-4 col-lg-4">
-            	<div class="ftMenu">
-                	<ul>
-                    	<li><a href="home.html">Home</a></li>
-                    	<li><a href="aboutus.html">About Us</a></li>
-                    	<li><a href="ourproducts.html">Our Products</a></li>
-                    	<li> <a href="contactus.html">Contact Us</a></li>
-                       </ul>
-                </div>                
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-4">
-            	<div class="contInfo">
-				    <p>Emil Id <br/>
-						<a href="mailto:kunalchandane@gmail.com">kunalchandane@gmail.com</a>
-				    </p>
-					<p>Mobile No. <br/>
-					   <span>9773128128</span>
-					</p>                   		 
-                </div>
-            </div>
-           </div>
-         </div>
-      </div>
-	</div>
-	
-	<footer class="footer">
-      <div class="container">
-        <div class="row">   
-            <div class="col-md-12">
-            	<div class="copyRight">©Copyright 2018, inc. All rights reserved. </div>
-            </div>
-        </div>
-      </div>
-    </footer>
+ <%@ include file="footer.jsp" %>
 </div>
 </body>
 </html>

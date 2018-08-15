@@ -1,3 +1,6 @@
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/custresources/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="${pageContext.request.contextPath}/custresources/images/favicon.ico" type="image/x-icon">
+
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/style.css">

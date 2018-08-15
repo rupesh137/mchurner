@@ -50,10 +50,6 @@
 								 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								 		<p class="text-center">There will never be a perfect time to save for future. Start now to invest your idle funds in Fix Deposit. Whenever you have excess funds, the first thing you should think of is a Mchurner Fixed Deposit. This deposit doesn’t just give you stable returns, financial safety and liquidity, but also the choice of when you want the interest on your principal - monthly or quarterly, depending upon your needs.</p> 
 								 	</div>
-								 <!--   <img src="images/fd.png" class="img-responsive LFloat"/>
-								   <div class="imgInfo RFloat">
-									 <p>There will never be a perfect time to save for future. Start now to invest your idle funds in Fix Deposit. Whenever you have excess funds, the first thing you should think of is a Mchurner Fixed Deposit. This deposit doesn’t just give you stable returns, financial safety and liquidity, but also the choice of when you want the interest on your principal - monthly or quarterly, depending upon your needs.</p> 
-								   </div> -->
 								 </div>
                              </div>
 							<div class="tabContainer tabContainer01">
@@ -93,11 +89,6 @@
 									 <p>Liquidate your gold quickly to meet your monetary needs</p>
 								 		</div> 
 								 	</div>
-								   <!-- <img src="images/hmImg.jpg" class="img-responsive LFloat"/>
-								   <div class="imgInfo RFloat">
-									 <p>Easy and secure funds. Get a loan against the gold you own, to meet your various financial needs easily.</p>
-									 <p>Liquidate your gold quickly to meet your monetary needs</p> 
-								   </div> -->
 								 </div>
 							 </div>
 							<div class="tabContainer tabContainer01">
@@ -108,14 +99,10 @@
 								 	</div>
 								 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								 		<div class="text-center">
-								 			<p>Coming Soon</p>
+								 			<p class="text-center">Coming Soon</p>
 									
 								 		</div> 
 								 	</div>
-								   <!-- <img src="images/hmImg.jpg" class="img-responsive LFloat"/>
-								   <div class="imgInfo RFloat">
-									 <p>Refer and Earn</p> 
-								   </div> -->
 								 </div>
 							</div>
                          </div>
@@ -163,6 +150,9 @@
     </div>
     
 <%@ include file="footer.jsp" %>
+	<!-- <div class="alert alert-success">
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+    </div> -->
 </div>
 </body>
 </html>

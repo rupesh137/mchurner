@@ -46,7 +46,7 @@
 				    </div>
 					 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 							<div class="mapHold">
-								<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=d&amp;source=s_d&amp;saddr=Brattle+Plaza+in+front+of+Crema+Cafe+Harvard+Square+Cambridge,+MA+02138&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.374905,-71.120682&amp;sspn=0.076596,0.168056&amp;mra=ls&amp;ie=UTF8&amp;ll=42.374905,-71.120682&amp;spn=0.076596,0.168056&amp;t=m&amp;output=embed"></iframe>                          
+								<iframe width="100%" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.7996889158057!2d72.83869331489979!3d18.984451887140477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce5748d0bd83%3A0xf22d1c5bbf029077!2sKapreshwar+Krupa+Building!5e0!3m2!1sen!2sin!4v1534688865948"  height="355" frameborder="0" style="border:0" allowfullscreen></iframe>                          
                            </div>
                         </div>
 				 </div>

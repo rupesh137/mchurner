@@ -15,16 +15,6 @@
 <body>
 <div class="wrapper">
  <%@ include file="header.jsp" %>
-	
-    <!--<div class="bannerHold">
-    	<div class="container-fluid">
-                    <div class="row">
-                        <div class="innerBanImg abtImg">
-                        	<img alt="" src="images/banner_ourproduct_FD.jpg" class="img-responsive">
-                        </div>
-                   </div>
-        </div>
-    </div> -->
 
     <div class="innerContentHold">
        <div class="pgContainer">
@@ -146,7 +136,7 @@
 		  </div>
 		 </div>
 	</div>
-
+</div>
     
    <%@ include file="footer.jsp" %>
 </div>

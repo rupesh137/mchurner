@@ -1,17 +1,19 @@
-﻿<!DOCTYPE HTML>
+﻿﻿<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mchurner</title>
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/bootstrap.min.css">
+<!--link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"--> 
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/style.css">
 
-<script type="text/javascript" language="javascript" src="js/jqueryMin.js"></script>
-<script type="text/javascript" language="javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" language="javascript" src="js/custom.js"></script>
+<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/jqueryMin.js"></script>
+<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/jquery-ui.js"></script>
+<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/custom.js"></script>
 
 <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
@@ -22,10 +24,10 @@
 <body>
 <div class="wrapper">
  <div class="mainHeader">
-    	  <div class="container">
+    	   <div class="container">
           	<div class="row">
 				<div class="logo pull-left">
-          			<a href="#page-top"><img src="images/logo.png" alt="" title=""></a>
+          			<a href="#page-top"><img  src="${pageContext.request.contextPath}/custresources/images/logo.png" alt="" title=""></a>
           		</div>
 				<div class="contNo_mobl">
 					    <span><a href="javascript:void(0)">Refer and Earn</a></span>
@@ -39,8 +41,8 @@
                       </button>
               		<!-- <a href="#page-top" class="navbar-brand">Logo <img src="images/White_Stone.png" alt="" title=""></a> -->
 					<div class="loginHold_mobl">
-                           <a href="#">Login</a>
-						   <a href="#">Registration</a>						   
+                           <a class="logBtn" href="#">Login</a>
+						   <a class="regBox" href="#">Registration</a>						   
 					</div>
         		</div>
             
@@ -67,6 +69,9 @@
 					    <div class="userName">
                            <a href="#">Kunal Chandane</a> 				   
 						</div>
+						 <div class="ddBox">
+						    <span>Logout</span>
+						 </div>
                     </li>
 					<li>
 					 	<a href="refer_and_earn.html" style="color:#177ba9;">Refer and Earn</a>
@@ -77,6 +82,9 @@
      	 </div>
     </div>
 	
+	
+    	 
+    
     <!--<div class="bannerHold">
     	<div class="container-fluid">
                     <div class="row">
@@ -97,7 +105,7 @@
                          <div class="tabList">		
 						     <ul>
                                 <li><a href="#" class="activeTab">Share Certificate</a></li>
-                                <li><a href="#">Saving</a></li>
+                                <li><a href="#">Saving Deposit</a></li>
                                 <li><a href="#">Fixed Deposit</a></li>
                             	<li><a href="#">Recurring Deposit</a></li>
                                 <li><a href="#">Loan</a></li>
@@ -109,44 +117,95 @@
 							    <h4>Share Certificate</h4>
 								 <div class="tabData">
 								   <div class="dataInfo">
-										<div class="boxData">
-											<div class="uploadBtn">
-												<input type="file" class="btnHide" id="uploadFile"/>
-												<div class="browsBtn" id="uploadTrigger">Select files to upload</div>
-											</div>
-										</div>
-									</div>
-									<div class="submitBtn">
-										<input value="SUBMIT" class="" type="button">
-									</div>
+								    <div class="boxData loanTab">
+										<h3>Share Certificate</h3>
+										<div class="tableContainer">
+										 <table class="table">
+											<thead>
+											  <tr>
+												<th>Certificate No.</th>
+												<th>Date</th>
+												<th>No. of Share</th>
+												<th>Amount</th>
+												<th></th>
+											 </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>xxxx123</td>
+												<td>02/03/2018</td>
+												<td>10</td>
+												<td>100</td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+											<tr>
+												<td>xxxx456</td>
+												<td>02/03/2018</td>
+												<td>50</td>
+												<td>200</td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+											<tr>
+												<td>xxxx789</td>
+												<td>02/03/2018</td>
+												<td>70</td>
+												<td>500</td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+										 </tbody>
+										</table>																				
+									   </div>								
+									</div>								
+								   </div>
 								 </div>								 
 							</div>
 							
 							<div class="tabContainer">
-							    <h4>Saving</h4>
+							    <h4>Saving Deposit</h4>
 								 <div class="tabData">
 								   <div class="dataInfo">
-								    <div class="boxData accountInfo">
-										<h3>Saving</h3>
-										<ul>
-											<li>
-												<label>Account No.</label>
-												<div class="info">082689231144555</div>
-											</li>
-											<li>
-												<label>Name</label>
-												<div class="info">Kunal Chandnae</div>
-											</li>
-											<li>
-												<label>Branch</label>
-												<div class="info">Ghansoli</div>
-											</li>
-											<li>
-												<label>Account Balance</label>
-												<div class="info">23,000</div>
-											</li>
-										</ul>
-									</div>									
+								    <div class="boxData loanTab">
+										<h3>Saving Deposit</h3>
+										 <div class="tableContainer">
+										 <table class="table">
+											<thead>
+											  <tr>
+												<th>Account No.</th>
+												<th>Balance</th>
+											 </tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>082689231144555</a></td>
+													<td>Rs. 500.00</td>
+												</tr>
+												<tr>
+													<td>0826892311489555</td>
+													<td>Rs. 700.00</td>
+												</tr>
+											 </tbody>
+										</table>	
+										</div>
+										<div class="dateHold">
+											<div class="dtCol">
+                                                    <h6>Date From</h6>
+                                                    <div class="calendarControl">
+														<input type="text" id="datepicker1" class="">
+													</div>
+                                            </div>
+                                            <div class="dtCol">
+                                                    <h6>Date to</h6>
+													<div class="calendarControl">
+														<input type="text" id="datepicker2">
+													</div>
+                                                    
+                                            </div>
+											
+											<div class="submitBtn">
+												<input value="Submit" class="bookFD" type="button">
+											</div>
+										</div>
+									</div>								
 								   </div>
 								 </div>
 							</div>
@@ -155,14 +214,52 @@
 								<h4>Fixed Deposit</h4>
 								<div class="tabData">
 								   <div class="dataInfo">
-									 <div class="boxData">
+									 <div class="boxData FDTab">
 										<h3>Fixed Deposit</h3>
-										<ul>
-											<li>Resident individuals (Maharashtra State Only)</li>
-											<li>“Should be a member of Mchurner”, “Resident individuals (Maharashtra state only)”, “Between 18 and 60 years of age”.</li>
-											<li>The minimum balance of deposit is Rs. 5000 per month and thereafter, in multiples of Rs. 5000</li>
-										</ul>
-										
+										<div class="tableContainer">
+										<table class="table">
+											<thead>
+											  <tr>
+												<th>Account No.</th>
+												<th class="txtRH">Amount of deposit</th>
+												<th>Period</th>
+												<th>Deposit date</th>
+												<th>Rate of interest</th>
+												<th>Maturity amount</th>
+												<th></th>
+											 </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>xxxx123</td>
+												<td class="txtRH">Rs. 50,000.00</td>
+												<td>36 Month</td>
+												<td>25/03/2018</td>
+												<td></td>
+												<td></td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+											<tr>
+												<td>xxxx456</td>
+												<td class="txtRH">Rs. 1,00,000.00</td>
+												<td>36 Month</td>
+												<td>25/03/2018</td>
+												<td></td>
+												<td></td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+											<tr>
+												<td>xxxx789</td>
+												<td class="txtRH">Rs. 70,000.00</td>
+												<td>36 Month</td>
+												<td>25/03/2018</td>
+												<td></td>
+												<td></td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+										 </tbody>
+										</table>
+										</div>
 										<div class="submitBtn">
 												<input value="Book new FD" class="bookFD" type="button">
 											</div>
@@ -209,14 +306,48 @@
 								 <h4>Recurring Deposit</h4>
 								 <div class="tabData">
 								   <div class="dataInfo">
-								    <div class="boxData">
+								    <div class="boxData RDTab">
 										<h3>Recurring Deposit</h3>
-										<ul>
-											<li>Resident individuals (Maharashtra State Only)</li>
-											<li>“Should be a member of Mchurner”, “Resident individuals (Maharashtra state only)”, “Between 18 and 60 years of age”.</li>
-											<li>The minimum balance of deposit is Rs. 5000 per month and thereafter, in multiples of Rs. 5000</li>
-										</ul>
-										
+										<div class="tableContainer">
+										<table class="table">
+											<thead>
+											  <tr>
+												<th>Account No.</th>
+												<th class="txtRH">Monthly Installment</th>
+												<th>Tenure</th>
+												<th>Loan Requirement After</th>
+												<th class="txtRH">Maturity Amount</th>
+												<th></th>
+											 </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>xxxx123</td>
+												<td class="txtRH">Rs. 1,000.00</td>
+												<td>36 Month</td>
+												<td>25/03/2018</td>
+												<td class="txtRH">Rs. 50,000.00</td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+											<tr>
+												<td>xxxx456</td>
+												<td class="txtRH">Rs. 1,000.00</td>
+												<td>36 Month</td>
+												<td>25/03/2018</td>
+												<td class="txtRH">Rs. 50,000.00</td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+											<tr>
+												<td>xxxx789</td>
+												<td class="txtRH">Rs. 1,000.00</td>
+												<td>36 Month</td>
+												<td>25/03/2018</td>
+												<td class="txtRH">Rs. 50,000.00</td>
+												<td><a href="#" class="viewtn">View</a></td>
+											</tr>
+										 </tbody>
+										</table>
+										</div>
 										<div class="submitBtn">
 												<input value="Book new RD" class="bookRD" type="button">
 											</div>
@@ -273,6 +404,7 @@
 								   <div class="dataInfo">
 								    <div class="boxData loanTab">
 										<h3>Loan</h3>
+										 <div class="tableContainer">
 										 <table class="table">
 											<thead>
 											  <tr>
@@ -280,24 +412,27 @@
 												<th>Loan Type</th>
 												<th>Loan Amount</th>
 												<th>Disbursement date</th>
+												<th></th>
 											 </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td><a href="#">xxxx123</a></td>
+												<td>xxxx123</td>
 												<td>Gold Loan</td>
 												<td>Rs. 1,00,000</td>
 												<td>25/03/2018</td>
+												<td><a href="#" class="viewtn">View</a></td>
 											</tr>
 											<tr>
-												<td><a href="#">xxxx456</a></td>
+												<td>xxxx456</td>
 												<td>Mortgage Loan</td>
 												<td>Rs. 50,000</td>
 												<td>25/03/2018</td>
+												<td><a href="#" class="viewtn">View</a></td>
 											</tr>
 										 </tbody>
 										</table>
-										
+										</div>
 										<div class="submitBtn">
 											<input value="Apply for new Loan" class="applyLoan" type="button">
 										</div>
@@ -406,50 +541,17 @@
 	</div>
 
     
-    <div class="footerNav"> 
-	    <div class="container">
-        <div class="row">
-		  <div class="col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-        	<div class="col-sm-4 col-md-4 col-lg-4">
-            	<div class="fLogo">
-            		<img src="images/logo.png">
-            	</div>                
-            </div>
-			
-			<div class="col-sm-4 col-md-4 col-lg-4">
-            	<div class="ftMenu">
-                	<ul>
-                    	<li><a href="home.html">Home</a></li>
-                    	<li><a href="aboutus.html">About Us</a></li>
-                    	<li><a href="ourproducts.html">Our Products</a></li>
-                    	<li> <a href="contactus.html">Contact Us</a></li>
-                       </ul>
-                </div>                
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-4">
-            	<div class="contInfo">
-				    <p>Emil Id <br/>
-						<a href="mailto:kunalchandane@gmail.com">kunalchandane@gmail.com</a>
-				    </p>
-					<p>Mobile No. <br/>
-					   <span>9773128128</span>
-					</p>                   		 
-                </div>
-            </div>
-           </div>
-         </div>
-      </div>
-	</div>
-	
-	<footer class="footer">
-      <div class="container">
-        <div class="row">   
-            <div class="col-md-12">
-            	<div class="copyRight">©Copyright 2018, inc. All rights reserved. </div>
-            </div>
-        </div>
-      </div>
-    </footer>
+    <%@ include file="footer.jsp" %>
 </div>
 </body>
+<script>
+  $(function() {
+    $( "#datepicker1, #datepicker2" ).datepicker({
+      showOn: "button",
+      buttonImage: "${pageContext.request.contextPath}/custresources/images/calendar.png",
+      buttonImageOnly: true,
+      buttonText: "Select date"
+    });
+  });
+  </script>
 </html>

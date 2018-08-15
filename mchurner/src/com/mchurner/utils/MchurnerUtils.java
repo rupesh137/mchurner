@@ -17,6 +17,8 @@ public class MchurnerUtils {
 		idPageMapping.put("mortLoan", "mortgage _loan");
 		idPageMapping.put("policyLoan", "Loan_against_LIC_Policy");
 		idPageMapping.put("vehicleLoan", "vehicle_loan");
+		idPageMapping.put("loginHome", "login_home");
+		idPageMapping.put("first_login", "user_details");
 	}
 	public static String generateFDAccId(int fdId){
 		String accountId = "FD" + String.format("%010d", fdId);

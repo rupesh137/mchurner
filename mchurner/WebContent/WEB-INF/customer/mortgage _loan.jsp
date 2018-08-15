@@ -16,16 +16,6 @@
 <body>
 <div class="wrapper">
 <%@ include file="header.jsp" %>
-	
-    <!--<div class="bannerHold">
-    	<div class="container-fluid">
-                    <div class="row">
-                        <div class="innerBanImg abtImg">
-                        	<img alt="" src="images/banner_ourproduct_FD.jpg" class="img-responsive">
-                        </div>
-                   </div>
-        </div>
-    </div> -->
 
     <div class="innerContentHold">
        <div class="pgContainer">
@@ -128,7 +118,7 @@
 
 							<h4>Maximum Loan:</h4>
 							<ul>
-								<li><strong>Home loans:</strong> “Maximum 50% of the property value (upto Rs. 50 Lacs)”.
+								<li><strong>Home loans:</strong> Maximum 50% of the property value (upto Rs. 50 Lacs).
 <!-- Maximum 90% of the Property value for home loan upto Rs 30 lacs. This is restricted to maximum 80% for home loan which exceed Rs 30 lacs and upto Rs 75 Lacs and Maximum 75% for Loans above Rs 75 Lacs. --></li>
 
 								<li><strong>LAP/NRP:</strong> Under this scheme, Loan shall be sanctioned upto Maximum 70% of the value of the property under proposal, depending upon the nature, type and possession status of the property.</li>
@@ -223,7 +213,9 @@
 		  </div>
 		 </div>
 	</div>
-
+         </div>
+</div>
+	
    <%@ include file="footer.jsp" %>
 </div>
 </body>

@@ -92,9 +92,8 @@
 										<h3>Eligibility</h3>
 										<ul>
 											<li>Resident individuals (Maharashtra State Only)</li>
-											<li> “Should be a member of Mchurner”, “Resident individuals (Maharashtra state only)”, “Between 18 and 60 years of age”.</li>
-										
-											<li>The minimum amount of deposit is Rs. 5000 per month and in multiples of Rs. 5000 thereafter</li>
+											<li>"Should be a member of Mchurner."</li>										
+											<li>"The minimum amount of deposit is Rs. 50000 and in multiples of Rs. 10000 thereafter."</li>
 										</ul>
 									</div>
 								   </div>
@@ -187,7 +186,7 @@
 											<li>Services" means the services provided by Mchurner Nidhi in connection with the Account and more particularly described in these Terms.</li> 
 											<li><strong>Statement/s</strong> shall mean the communication provided to the Depositor/s on a quarterly basis stating inter alia the value of the Deposit on Maturity date, the value of the Deposit as on date of the communication and the rate of interest payable by the Nidhi on the Deposit.</li> 
 											<li><strong>Tenure</strong> means the period for which the Deposit is to be maintained commencing from the date of the deposit of first Installment till the period as specified in the AOF.</li> 
-											<li><strong>Website</strong> refers to the website owned, established and maintained by Mchurner Nidhi at the URL <a href="#" target="_blank">www.mchurner.com</a>.</li> 
+											<li><strong>Website</strong> refers to the website owned, established and maintained by Mchurner Nidhi at the URL <a href="#" target="_blank">www.mchurner.in</a>.</li> 
 										</ul>
 										
 										<h6>Interpretation</h6>

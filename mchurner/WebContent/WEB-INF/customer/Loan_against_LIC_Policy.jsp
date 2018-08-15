@@ -16,17 +16,6 @@
 <body>
 <div class="wrapper">
  <%@ include file="header.jsp" %>
-	
-    <!--<div class="bannerHold">
-    	<div class="container-fluid">
-                    <div class="row">
-                        <div class="innerBanImg abtImg">
-                        	<img alt="" src="images/banner_ourproduct_FD.jpg" class="img-responsive">
-                        </div>
-                   </div>
-        </div>
-    </div> -->
-
     <div class="innerContentHold">
        <div class="pgContainer">
          <div class="mortgageLoan">
@@ -68,7 +57,7 @@
 							
 							<h4>Interest Rate & Charges:</h4>
 							<p>For new member starting from 12% PA</p>
-							<p>"If FD/RD depositors want to give their policies as collateral, the rate of interest will be calculated based on the deposit schemes".</p>
+							<p>If FD/RD depositors want to give their policies as collateral, the rate of interest will be calculated based on the deposit schemes".</p>
 
 
 							<div class="table-wrapper">
@@ -116,7 +105,7 @@
 		  </div>
 		 </div>
 	</div>
-
+</div>
    <%@ include file="footer.jsp" %>
 </div>
 </body>

@@ -16,16 +16,7 @@
 <body>
 <div class="wrapper">
 <%@ include file="header.jsp" %>
-	
-    <!--<div class="bannerHold">
-    	<div class="container-fluid">
-                    <div class="row">
-                        <div class="innerBanImg abtImg">
-                        	<img alt="" src="images/banner_ourproduct_FD.jpg" class="img-responsive">
-                        </div>
-                   </div>
-        </div>
-    </div> -->
+
 
     <div class="innerContentHold">
        <div class="pgContainer">
@@ -80,7 +71,7 @@
 							<h4>Interest Rate & Charges:</h4>
 							<p>New Car Loan 14% PA</p>
 							<p>Used Car Loan 16 % PA</p>
-							<p>"If FD/RD depositors want to give their vehicles as collateral, the rate of interest will be calculated based on the deposit schemes”.
+							<p>If FD/RD depositors want to give their vehicles as collateral, the rate of interest will be calculated based on the deposit schemes.
  </p>
 
 							<div class="table-wrapper">

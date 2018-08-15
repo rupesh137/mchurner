@@ -47,21 +47,6 @@
 						 </div>
 						 
 						 <div class="tabContHold">
-						    <!-- <div class="tabContainer">
-								 <h4>Fixed Deposit</h4>
-								 <div class="tabData">
-								   <div class="dataInfo">
-								    <div class="boxData">
-										<h3>Fixed deposit</h3>
-										<p>Opt for fix deposit account and let you saving grow.</p> 
-									</div>
-									<div class="boxData">
-										<h3>Convenient booking</h3>
-										<p>Open a fixed deposit account easily through channels like internet or phone or simply visiting our valued members.</p> 
-								    </div>
-								   </div>
-								 </div>
-                            </div> -->
 							 
 							<div class="tabContainer">
 							    <h4>Benefits</h4>
@@ -92,8 +77,8 @@
 										<h3>Eligibility</h3>
 										<ul>
 											<li>Resident individuals ( Maharashtra State Only )</li>
-											<li> “Should be a member of Mchurner”, “Resident individuals (Maharashtra state only)”, “Between 18 and 60 years of age”.</li>
-											<li>The minimum amount of deposit is Rs. 5000 per month and in multiples of Rs. 5000 thereafter</li>
+											<li>"Should be a member of Mchurner."</li>
+											<li>"The minimum amount of deposit is Rs. 50000 and in multiples of Rs. 10000 thereafter."</li>
 										</ul>
 									</div>
 								   </div>

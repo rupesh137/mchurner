@@ -2,7 +2,7 @@
     	  <div class="container">
           	<div class="row">
           		<div class="logo pull-left">
-          			<a href="#page-top"><img src="${pageContext.request.contextPath}/custresources/images/logo.png" alt="" title=""></a>
+          			<a href="${pageContext.request.contextPath}"><img src="${pageContext.request.contextPath}/custresources/images/logo.png" alt="" title=""></a>
           		</div>
 				<div class="contNo_mobl">
 					    <span><a href="javascript:void(0)">Refer and Earn</a></span>
@@ -16,8 +16,8 @@
                       </button>
               		
 					<div class="loginHold_mobl">
-                           <a href="#">Login</a>
-						   <a href="#">Registration</a>						   
+                           <a class="logBtn" href="#">Login</a>
+						   <a class="regBox" href="#">Registration</a>						   
 					</div>
         		</div>
             
@@ -56,7 +56,7 @@
     
     <div class="lbOverlay">		
 		<div class="lightBox"></div>
-		<div class="formContainer Login">
+		<div class="formContainer Login"  ng-app="mchurnerApp" ng-controller="loginController">
 			<div class="fcHeader">Login</div>
 			<div class="fcData">
 				<div class="form-group">
@@ -69,7 +69,7 @@
 				</div>
 				<div class="fPassword"><a href="#" class="forgotPass">Forgot Password</a></div>
 				<div class="submitBtn">
-					<input value="SUBMIT" class="" type="button">
+					<input value="SUBMIT" class="" type="button" ng-click="goLogin()">
 				</div>
 				<p>Don't have an account?</p>
 				<a href="#" class="newAc"><span>Create New Account</span></a>
@@ -117,4 +117,5 @@
 				
 			</div>
 		</div>
+		<span id="ctxURL" style="display:none;">${pageContext.request.contextPath}</span>
 	</div>

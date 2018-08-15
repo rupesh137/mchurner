@@ -3,12 +3,12 @@ $(document).ready(function(e) {
 		   $('.lbOverlay, .Login, .Register, .forgotPassword').fadeOut(10);
 	});
 
-	$('.loginHold a.logBtn').on('click', function() {
+	$('.loginHold a.logBtn, .loginHold_mobl a.logBtn').on('click', function() {
 		$('.lbOverlay, .Login').fadeIn(500);
 		return false;
 	 });
 	 
-     $('.loginHold a.regBox').on('click', function() {
+     $('.loginHold a.regBox, .loginHold_mobl a.regBox').on('click', function() {
 		$('.lbOverlay, .Register').fadeIn(500);
 		return false;
 	 });
@@ -54,18 +54,18 @@ $(document).ready(function(e) {
 	var ind, actPos, expandPos;
 	$('.tabContainer h4').click(function () {
         ind = $('.tabContainer h4').index(this)
-		actPos = $(this).offset().top - 30;
+		actPos = $(this).parent().offset().top - 30;
         expandPos = $(this).parent().siblings().find('.tabData').outerHeight(true);
         
 			$(this).parent().siblings('.tabContainer').find('.tabData').slideUp(500);	
 			$(this).parent().find('.tabData').slideDown(500);
-            $("html, body").animate({ scrollTop: actPos }, 500);
+          $("html, body").animate({ scrollTop: actPos }, 500);
 
     });
 	
 	 var ind, positionTop, listH, listPrevHeight, actualPos;
 	  $('.tabContainer h4').click(function(){
-		  ind = $('.tabContainer h4').index(this)
+		  ind = $('.tabContainer h4').index(this);
 			positionTop = $('.tabContainer h4').offset().top;
 			listH = $(this).outerHeight(true);
 			listPrevHeight = $(this).parent().siblings('.tabContainer').find('.tabData').outerHeight(true);
@@ -107,6 +107,14 @@ $(document).ready(function(e) {
 				alert("Please select a file to upload");
 			}
 		});
+		$('.userName').click(function(){
+			$('.ddBox').slideToggle(100);
+		})
+		
+		$('.ddBox span').click(function(){
+			$('.userName, .ddBox').fadeOut(100);
+		})
+		
 		
 	  /*
 	  var ind = 0, pagiLen, tabWidth, liW, liWidth;
@@ -125,5 +133,10 @@ $(document).ready(function(e) {
 
 	  */
 	  
-	
+		$(".mainMenu ul li a").on("click", function() {
+		      $(".mainMenu ul li a").removeClass("activeNav");
+		      $(this).addClass("activeNav");
+		      var pathname = window.location.pathname;
+		    });
+
 });
