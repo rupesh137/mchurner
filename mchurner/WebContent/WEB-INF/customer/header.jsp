@@ -24,13 +24,13 @@
                 <div id="navbar" class="collapse navbar-collapse mainMenu">
                   <ul class="nav navbar-nav deviceNav">
                      <li>
-                        <a href="${pageContext.request.contextPath}" class="activeNav">Home</a>
+                        <a href="${pageContext.request.contextPath}">Home</a>
                     </li>
 					<li>
                         <a href="${pageContext.request.contextPath}/pages/aboutus" >About Us</a>
                     </li>                    
                     <li class="dropdown">
-                        	<a href="ourproducts.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Our Products</a>
+                        	<a href="${pageContext.request.contextPath}/pages/fd" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Our Products</a>
                         	<ul class="dropdown-menu" role="menu">
                             	<li><a href="${pageContext.request.contextPath}/pages/fd">Fixed Deposit</a></li>
                             	<li><a href="${pageContext.request.contextPath}/pages/rd">Recurring Deposit</a></li>
@@ -54,7 +54,7 @@
      	 </div>
     </div>
     
-    	<div class="lbOverlay">		
+    <div class="lbOverlay">		
 		<div class="lightBox"></div>
 		<div class="formContainer Login">
 			<div class="fcHeader">Login</div>
@@ -76,16 +76,11 @@
 			</div>
 		</div>
 		
-<<<<<<< HEAD
 		<div class="formContainer Register" ng-app="mchurnerApp" ng-controller="signupController">
-=======
-		<div class="formContainer Register">
->>>>>>> fe1b8ec291d054ba1ee39743a5378be5a7c2f92c
 			<div class="fcHeader">Register</div>
 			<div class="fcData">
 				<div class="form-group">
 					<p class="formError">This fields are mandatory</p>
-<<<<<<< HEAD
 					<input type="name" class="form-control" id="name" placeholder="Name" ng-model="user.firstName">
 				</div>
 				<div class="form-group">
@@ -102,24 +97,6 @@
 				</div>
 				<div class="submitBtn">
 					<input value="SUBMIT" class="" type="button" ng-click="saveUserDetails(user)">
-=======
-					<input type="name" class="form-control" id="name" placeholder="Name">
-				</div>
-				<div class="form-group">
-					<p class="formError">This fields are mandatory</p>
-					<input type="mobile" class="form-control" id="mobile" placeholder="Mobile">
-				</div>
-				<div class="form-group">
-					<p class="formError">This fields are mandatory</p>
-					<input type="email" class="form-control" id="email" placeholder="Email">
-				</div>
-				<div class="form-group">
-					<p class="formError">This fields are mandatory</p>
-					<input type="Name" class="form-control" id="refname" placeholder="Referral Name">
-				</div>
-				<div class="submitBtn">
-					<input value="SUBMIT" class="" type="button">
->>>>>>> fe1b8ec291d054ba1ee39743a5378be5a7c2f92c
 				</div>
 				<p>Have an account with us</p>
 				<a href="#" class="signIn">Sign in</a>

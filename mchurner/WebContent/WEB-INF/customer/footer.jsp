@@ -11,20 +11,20 @@
 			<div class="col-sm-4 col-md-4 col-lg-4">
             	<div class="ftMenu">
                 	<ul>
-                    	<li><a href="home.html">Home</a></li>
-                    	<li><a href="aboutus.html">About Us</a></li>
-                    	<li><a href="ourproducts.html">Our Products</a></li>
-                    	<li> <a href="contactus.html">Contact Us</a></li>
+                    	<li><a href="${pageContext.request.contextPath}">Home</a></li>
+                    	<li><a href="${pageContext.request.contextPath}/pages/aboutus">About Us</a></li>
+                    	<li><a href="${pageContext.request.contextPath}/pages/fd">Our Products</a></li>
+                    	<li> <a href="${pageContext.request.contextPath}/pages/contactus">Contact Us</a></li>
                        </ul>
                 </div>                
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
             	<div class="contInfo">
 				    <p>Emil Id <br/>
-						<a href="mailto:kunalchandane@gmail.com">kunalchandane@gmail.com</a>
+						<a href="mailto:onkaryendhe@gmail.com">onkaryendhe@gmail.com</a>
 				    </p>
 					<p>Mobile No. <br/>
-					   <span>9773128128</span>
+					   <span>+ 91 9987006770 / +91 9987999505</span>
 					</p>                   		 
                 </div>
             </div>

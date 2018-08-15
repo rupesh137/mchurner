@@ -41,7 +41,7 @@
 							<p><strong>Contact Person :</strong> Mr. Onkar Prakash Yendhe</p>
 							<p><strong>Contact details :</strong> + 91 9987006770 / +91 9987999505 </p>
 							<p><strong>Email :</strong> <a href="">onkaryendhe@gmail.com</a></p>
-							<p><strong>Website :</strong> <a href="http://www.mchurner.in/" target="_blank">www.mchurner.in</a></p>
+							<p><strong>Website :</strong> <a href="http://www.mchurner.in/mchurner" target="_blank">www.mchurner.in</a></p>
 					    </div>					
 				    </div>
 					 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">

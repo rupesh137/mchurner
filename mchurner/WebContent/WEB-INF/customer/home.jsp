@@ -40,8 +40,8 @@
                                 <li><a href="#">Refer and Earn</a></li>
 							 </ul>
 						 </div>
-						 <div class="tabContHold">
-						    <div class="tabContainer">
+						 <div class="tabContHold tabContHold01">
+						    <div class="tabContainer tabContainer01">
 								 <h4>Fixed Deposit</h4>
 								 <div class="tabData">
 								 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -56,7 +56,7 @@
 								   </div> -->
 								 </div>
                              </div>
-							<div class="tabContainer">
+							<div class="tabContainer tabContainer01">
 							    <h4>Recurring Deposit</h4>
 								 <div class="tabData">
 								 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -81,7 +81,7 @@
 								   </div>
 								 </div>
 							</div>
-							<div class="tabContainer">
+							<div class="tabContainer tabContainer01">
 								<h4>Loan</h4>
 								<div class="tabData">
 									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -100,7 +100,7 @@
 								   </div> -->
 								 </div>
 							 </div>
-							<div class="tabContainer">
+							<div class="tabContainer tabContainer01">
 								<h4>Refer and Earn</h4>
 								<div class="tabData">
 									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
