@@ -124,6 +124,10 @@ $(document).ready(function(e) {
 		})
 
 	  */
-	  
+		$(".mainMenu ul li a").on("click", function() {
+		      $(".mainMenu ul li a").removeClass("activeNav");
+		      $(this).addClass("activeNav");
+		      var pathname = window.location.pathname;
+		    });
 	
 });
