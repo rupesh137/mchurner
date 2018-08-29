@@ -107,6 +107,7 @@ $(document).ready(function(e) {
 				alert("Please select a file to upload");
 			}
 		});
+		
 		$('.userName').click(function(){
 			$('.ddBox').slideToggle(100);
 		})
@@ -114,7 +115,6 @@ $(document).ready(function(e) {
 		$('.ddBox span').click(function(){
 			$('.userName, .ddBox').fadeOut(100);
 		})
-		
 		
 	  /*
 	  var ind = 0, pagiLen, tabWidth, liW, liWidth;
@@ -133,10 +133,5 @@ $(document).ready(function(e) {
 
 	  */
 	  
-		$(".mainMenu ul li a").on("click", function() {
-		      $(".mainMenu ul li a").removeClass("activeNav");
-		      $(this).addClass("activeNav");
-		      var pathname = window.location.pathname;
-		    });
-
+	
 });
