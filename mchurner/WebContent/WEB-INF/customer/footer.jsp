@@ -9,9 +9,9 @@
 			<div class="col-sm-4 col-md-4 col-lg-4">
             	<div class="ftMenu">
                 	<ul>
-                    	<li><a href="${pageContext.request.contextPath}">Home</a></li>
+                    	<li><a href="${pageContext.request.contextPath}/">Home</a></li>
                     	<li><a href="${pageContext.request.contextPath}/pages/aboutus">About Us</a></li>
-                    	<li><a href="#">Our Products</a>
+                    	<li><a href="${pageContext.request.contextPath}/pages/fd">Our Products</a>
                     		<ul class="sub-menu">
                             	<li><a href="${pageContext.request.contextPath}/pages/fd">Fixed Deposit</a></li>
                             	<li><a href="${pageContext.request.contextPath}/pages/rd">Recurring Deposit</a></li>

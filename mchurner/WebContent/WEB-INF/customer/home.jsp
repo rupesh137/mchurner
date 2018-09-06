@@ -50,6 +50,9 @@
 								 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								 		<p class="text-center">There will never be a perfect time to save for future. Start now to invest your idle funds in Fix Deposit. Whenever you have excess funds, the first thing you should think of is a Mchurner Fixed Deposit. This deposit doesn’t just give you stable returns, financial safety and liquidity, but also the choice of when you want the interest on your principal - monthly or quarterly, depending upon your needs.</p> 
 								 	</div>
+								 	<div class="pgLink">
+									    <a href="${pageContext.request.contextPath}/pages/fd" class="viewtn">View details</a>	
+                                     </div>
 								 </div>
                              </div>
 							<div class="tabContainer tabContainer01">
@@ -67,6 +70,9 @@
 									 <p>The best way to predict the feature is to create it.</p>
 								 		</div> 
 								 	</div>
+								 	<div class="pgLink">
+									    <a href="${pageContext.request.contextPath}/pages/rd" class="viewtn">View details</a>	
+                                     </div>
 								   <!-- <img src="images/hmImg.jpg" class="img-responsive LFloat"/>
 								   <div class="imgInfo RFloat">
 									 <p>Even the greatest was once a beginner. Don’t be afraid to take that first step invest every month to be prepare for your future.</p> 
@@ -89,6 +95,9 @@
 									 <p>Liquidate your gold quickly to meet your monetary needs</p>
 								 		</div> 
 								 	</div>
+								 	<div class="pgLink">
+									    <a href="${pageContext.request.contextPath}/pages/loan" class="viewtn">View details</a>	
+                                     </div>
 								 </div>
 							 </div>
 							<div class="tabContainer tabContainer01">
@@ -99,10 +108,13 @@
 								 	</div>
 								 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								 		<div class="text-center">
-								 			<p class="text-center">Coming Soon</p>
+								 			<p class="text-center">Coming Soon.....</p>
 									
 								 		</div> 
 								 	</div>
+								 	<div class="pgLink">
+									    <a href="#" class="viewtn">View details</a>	
+                                     </div>
 								 </div>
 							</div>
                          </div>

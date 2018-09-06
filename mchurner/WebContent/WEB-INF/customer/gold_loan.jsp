@@ -26,7 +26,7 @@
 						  <div class="boxData">
 							<h2>Gold Loan</h2>
 							<p>Easy and secure funds. Get a loan against the gold you own, to meet your various financial needs easily.</p>
-							<p>Liquidate your gold quickly to meet your monetary needs</p>
+							<p>Liquidate your gold quickly to meet your monetary needs.</p>
 							
 							<h4>Interest Rate</h4>
 							<ul>
@@ -67,8 +67,8 @@
 
 							<h4>Eligibility</h4>
 							<ul>
-								<li>Should be member of Nidhi</li>
-								<li>Individuals who are eligible for a Loan against Gold</li>
+								<li>Should be a member of Mchurner</li>
+								<li>Resident individuals (Maharashtra state only)</li>
 								<li>Between 18 and 60 years of age</li>
 							</ul>
 
@@ -101,7 +101,7 @@
 							</table>
 							</div>
 
-							<h4>Terms & Condition</h4>
+							<h4>Terms and Conditions</h4>
 							<ul>
 								<li>The Borrower confirms to have fully read and understood the various schemes offered by the Mchurner Nidhi and based thereon, the Borrower has requested/selected to avail the Loan under the scheme (with interest rates as applicable) as mentioned in pawn ticket.</li>
 								<li>The Borrower confirms that the stones fixed in the pledged gold ornaments/items, if any, do not have any market value and that the said gold ornaments /items is/ are the absolute and unencumbered property of the Borrower and no other person has any right, title, interest or claim thereon.</li>

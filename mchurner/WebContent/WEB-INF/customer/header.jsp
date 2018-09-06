@@ -2,7 +2,7 @@
     	  <div class="container">
           	<div class="row">
           		<div class="logo pull-left">
-          			<a href="${pageContext.request.contextPath}"><img src="${pageContext.request.contextPath}/custresources/images/logo.png" alt="" title=""></a>
+          			<a href="${pageContext.request.contextPath}/"><img src="${pageContext.request.contextPath}/custresources/images/logo.png" alt="" title=""></a>
           		</div>
 				<div class="contNo_mobl">
 					    <span><a href="javascript:void(0)">Refer and Earn</a></span>
@@ -24,7 +24,7 @@
                 <div id="navbar" class="collapse navbar-collapse mainMenu">
                   <ul class="nav navbar-nav deviceNav">
                      <li>
-                        <a href="${pageContext.request.contextPath}">Home</a>
+                        <a href="${pageContext.request.contextPath}/">Home</a>
                     </li>
 					<li>
                         <a href="${pageContext.request.contextPath}/pages/aboutus" >About Us</a>

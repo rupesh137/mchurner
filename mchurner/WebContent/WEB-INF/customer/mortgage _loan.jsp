@@ -99,7 +99,7 @@
 							</table>
 							</div>
 							
-							<h4>Terms & Condition</h4>
+							<h4>Terms and Condition</h4>
 							<p>Mchurner Nidhi elaborates the terms and conditions with respect to the products that are being offered by Mchurner Nidhi Limited such as Home Loans, Loans against property/ Home Equity and Non - Residential Premises Loans.</p>
 							<h4>Purpose</h4>
 							<h5>Home Loans:</h5>
@@ -196,7 +196,6 @@
 
 
 							<h4>COMPLAINTS AND GRIEVANCES</h4>
-							<h5>Internal Procedures<h5>
 							<ul>
 								<li>If the customer wants to make a complaint, he/she shall be suitably advised as to lodge the complaint at the branch concerned or can email to “support@mchurner.com”. Our staff shall help the customer with any questions the customer has. </li>
 								<li>If the customer is still not satisfied then the matter would be looked into by a high level Authority/Committee appointed/constituted by the Company in this regard.</li> 

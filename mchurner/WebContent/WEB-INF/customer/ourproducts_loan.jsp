@@ -29,7 +29,7 @@
 						<div class="col-xs-12 col-sm-7 col-md-10 col-lg-10">
 							<h2 class="gl">Gold Loan</h2>
 							<p>Easy and secure funds. Get a loan against the gold you own, to meet your various financial needs easily.</p>
-							<p>Liquidate your gold quickly to meet your monetary needs</p>
+							<p>Liquidate your gold quickly to meet your monetary needs.</p>
 							<div class="readBtn">
 								<a href="${pageContext.request.contextPath}/pages/goldLoan">Read More</a>
 							</div>

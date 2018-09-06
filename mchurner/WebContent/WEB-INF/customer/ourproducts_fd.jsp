@@ -62,8 +62,7 @@
 									</div>
 									<div class="boxData">
 										<h3>Interest Rates</h3>
-										<p>Earn attractive interest for various tenures on your deposits. Click here for more details.</p>
-										<p>After clicking n more details tenure Vs ROI chart will open below.</p> 
+										<p>Earn attractive interest for various tenures on your deposits. <a href="#">Click here</a> for more details.</p>										 
 								    </div>
 								   </div>
 								 </div>
@@ -77,8 +76,8 @@
 										<h3>Eligibility</h3>
 										<ul>
 											<li>Resident individuals ( Maharashtra State Only )</li>
-											<li>"Should be a member of Mchurner."</li>
-											<li>"The minimum amount of deposit is Rs. 50000 and in multiples of Rs. 10000 thereafter."</li>
+											<li>Should be a member of Mchurner.</li>
+											<li>The minimum amount of deposit is Rs. 50000 and in multiples of Rs. 10000 thereafter.</li>
 										</ul>
 									</div>
 								   </div>
@@ -97,23 +96,25 @@
 										</ul>
 									 </div>
 									 <div class="boxData">
+										<h5>* Photo ID Proof</h5>										
+										<ul>
+											<li>PAN Card</li>
+										</ul>
+									 </div>
+									 <div class="boxData">
 										<h5>* Address Proof</h5>
 										<ul>
 											<li>Passport</li>
 											<li>Latest Telephone bill / Electricity Bill / Water Bill / Gas Bill</li>										
 											<li>Last One Month Bank Statement with Cancelled Cheque</li>
-											<li>Certificate / ID card issued by Post office</li>
-											<li>PAN Card</li>
 										</ul>										
 										<h6>Note</h6>
 										<ul>
 											<li>Please produce the original document(s) for verification & a photocopy of each document</li>
 											<li>Please fill the form in CAPITAL LETTERS using Black ink </li>
-											<!-- <li>Please countersign in case of any overwriting</li> 
-											<li>Please avail of the nomination facility</li> -->
 											
 										</ul>
-										<p>* It is mandatory to provide permanent address, current address and mobile number.</p>
+										<p><b>*</b> It is mandatory to provide permanent address, current address and mobile number.</p>
 									 </div>
 								   </div>
 								 </div>
@@ -130,6 +131,7 @@
 											<li>TDS applicable on interest after maturity</li>
 											<li>Premature withdrawal charges* will be applicable</li>
 										</ul>
+										<p><b>*</b> Read Terms and Conditions</p>
 									</div>
 								  </div>
 								 </div>

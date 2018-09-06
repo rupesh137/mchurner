@@ -120,11 +120,13 @@ body{font-family:'Poppins', sans-serif; color:#000000; font-size:100%; font-size
 	border-radius: 5px;
 }
 
-.viewtn:hover {
+.viewtn:hover, .viewtn:focus {
 	background: #275baa;
 	color: #fff;
 	text-decoration: none;
 }
+
+.pgLink{text-align:center;}
 
 .dateHold .dtCol {
 	float: left;
@@ -498,7 +500,7 @@ a.newAc span{display:inline-block; border-bottom:1px solid #21a1db}
 }
 
 @media screen and (max-width:380px){
-	.ftMenu ul li a {padding:6px 3px; font-size:12px;}
+	.ftMenu ul li a {padding:6px 3px; font-size:14px;}
 	.formContainer{width:90%;}
 	.ourProductContainer, .productLoan{padding-bottom:150px}
 }

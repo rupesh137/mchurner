@@ -38,8 +38,8 @@
 					  <div class="tabInfoHold RD">
                          <div class="tabList">		
 						     <ul>                                
-                                <!-- <li><a href="#" class="activeTab">Benefits</a></li> -->
-                                <li><a href="#" class="activeTab">Eligibility</a></li>
+                                <li><a href="#" class="activeTab">Benefits</a></li>
+                                <li><a href="#" >Eligibility</a></li>
                                 <li><a href="#">Interest Rate</a></li>
                                 <li><a href="#">Documents Required</a></li>
                                 <li><a href="#">Charges</a></li>
@@ -61,7 +61,7 @@
 								 </div>
 							</div>
 							 -->
-					<!-- 		<div class="tabContainer">
+							<div class="tabContainer">
 							    <h4>Benefits</h4>
 								 <div class="tabData">
 								   <div class="dataInfo">
@@ -76,13 +76,13 @@
 											<li>Availing nomination facility while booking deposit online.</li>
 											<li>Loan facility available for every member at attractive interest rate against collaterals securities.</li>
 											<li>Every member can avail loan upto 100% of their RD maturity against collaterals securities.</li>
-											<li> ROI will be varies base on at what time they avail loan.</li>
-											<li>For ROI and maturity please go through Interest section. </li>
+											<li>Rate of Interest will vary base on at what time a member wants to avail loan.</li>
+											<li>For Rate of Interest and Maturity, please go through the ‘Interest Rate’ section. </li>
 										</ul>
 									</div>									
 								   </div>
 								 </div>
-							</div> -->
+							</div>
 							
 							<div class="tabContainer">
 								<h4>Eligibility</h4>
@@ -92,8 +92,8 @@
 										<h3>Eligibility</h3>
 										<ul>
 											<li>Resident individuals (Maharashtra State Only)</li>
-											<li>"Should be a member of Mchurner."</li>										
-											<li>"The minimum amount of deposit is Rs. 50000 and in multiples of Rs. 10000 thereafter."</li>
+											<li>Should be a member of Mchurner.</li>										
+											<li>The minimum amount of deposit is Rs. 50000 and in multiples of Rs. 10000 thereafter.</li>
 										</ul>
 									</div>
 								   </div>
@@ -128,6 +128,12 @@
 										</ul>
 									 </div>
 									 <div class="boxData">
+										<h5>* Photo ID Proof</h5>										
+										<ul>
+											<li>PAN Card</li>
+										</ul>
+									 </div>
+									 <div class="boxData">
 										<h5>* Address Proof</h5>
 										<ul>
 											<li>Passport</li>
@@ -158,6 +164,7 @@
 											<li>TDS applicable on interest after maturity</li>
 											<li>Premature withdrawal charges* will be applicable</li>
 										</ul>
+										<p><b>*</b> Read Terms and Conditions</p>
 									</div>
 								  </div>
 								 </div>

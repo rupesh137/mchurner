@@ -55,16 +55,6 @@ trusted friend in critical situations to sail through it.
 				 </div>
 				 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2>Who we are?</h2>
-						<div class="dataInfo">
-						    <p>We meet the diverse financial needs of individual consumers, small businesses, and middle market companies throughout the country. Mchurner is owned and operated for the benefit of its customers. We are accountable to our customers, employees, and communities. We work to control risk and act as a stable influence in financial markets. </p> 
-        
-                            <p>Our commitment is all about service, security and sustainability that you won't find anywhere else. When you work with us, feel confident knowing that you have a trustworthy financial partner who is truly invested in your success - today, tomorrow and for generations to come.</p>
-					    </div>					
-				    </div>
-				 </div>
-				 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h2>Why we are a different?</h2>
 						<div class="dataInfo">
 						    <p>At Mchurner, we make our services client-centric giving uttermost importance to clients

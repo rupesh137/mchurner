@@ -83,7 +83,7 @@
 							</table>
 							</div>
 							
-							<h4>Terms & Condition</h4>
+							<h4>Terms and Conditions</h4>
 							<ul>
 								<li>Nidhi reserves the right to reject any application / renewal without assigning reasons thereof. It shall be the sole right of the Nidhi to consider the proposal on case to case basis after taking into consideration, the credentials/credit worthiness of each of the customers</li>
 								<li>No loan under this scheme is granted for investment in capital market instrument or for speculation purpose</li>
