@@ -405,6 +405,8 @@ a.newAc span{display:inline-block; border-bottom:1px solid #21a1db}
     display: inline-block!important;
     width: 100%!important;
 }
+.company-name-header {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 20px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
+
 
 th{
 	background-color: #435d7d;
@@ -518,8 +520,6 @@ th{
      .company-name-header  {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 15px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
      .logo img {width: 43%;}
 }
-
-.company-name-header {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 20px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
 
 
 
