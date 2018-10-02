@@ -105,13 +105,41 @@
 								 <div class="tabData">
 								   <div class="dataInfo">
 								    <div class="boxData">
-										<h3>Interest rate</h3>
-										<p>Opt for fix deposit account and let you saving grow.</p> 
-									</div>
-									<div class="boxData">
-										<h3>Convenient booking</h3>
-										<p>Open a fixed deposit account easily through channels like internet or phone or simply visiting our valued members.</p> 
-								    </div>
+										<h3>Interest Rate</h3>
+										<div class="table-wrapper">
+											<table class="table table-striped table-hover text-centered">
+													<tr>
+														<th>Deposit Tenure</th>
+														<th>Rate of Interest</th>
+														<th>Rate of Interest for Senior Citizen</th>
+													</tr>
+													<tr>
+														<td>12 Months </td>
+														<td>7.0 %</td>
+														<td>7.5 %</td>
+													</tr>	
+													<tr>
+														<td>13 Months to 24 Months</td>
+														<td>7.5 %</td>
+														<td>8.0 %</td>
+													</tr>
+													<tr>
+														<td>25 months to 36 months</td>
+														<td>8.0 %</td>
+														<td>8.5%</td>
+													</tr>								
+											</table>
+										</div> 
+										
+										<h6>Note:</h6> 
+										<ul>
+										<li>Loan facility available to RD depositors maximum to their RD maturity amount. 
+										</li>
+										<li>
+										If the applied loan amount is grater than actual deposit, collateral security equivalent to the difference amount need to be submitted by the applicant.
+										</li>
+										</ul>
+									</div>									
 								   </div>
 								 </div>
                             </div>

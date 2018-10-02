@@ -35,9 +35,8 @@
 						<div class="addressInfo">
 							<h2>Contact Us</h2>
 							<p><strong>Company Name :</strong> Mchurner Nidhi Limited</p>
-							<p><strong>Address :</strong> B/103, Shree Kapreshwar Krupa CHS,<br> 
-								Umesh Salunke Marg,<br>
-								Ghodapdeo, Mumbai 400 033</p>
+							<p><strong>Address :</strong> 5A, 97, Victoria Road, Mustafa Bazar,<br> 
+								Mazgaon, Mumbai - 400010</p>
 							<p><strong>Contact Person :</strong> Mr. Onkar Prakash Yendhe</p>
 							<p><strong>Contact details :</strong> + 91 9987006770 / +91 9987999505 </p>
 							<p><strong>Email :</strong> <a href="">onkaryendhe@gmail.com</a></p>
@@ -46,7 +45,7 @@
 				    </div>
 					 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 							<div class="mapHold">
-								<iframe width="100%" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.7996889158057!2d72.83869331489979!3d18.984451887140477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce5748d0bd83%3A0xf22d1c5bbf029077!2sKapreshwar+Krupa+Building!5e0!3m2!1sen!2sin!4v1534688865948"  height="355" frameborder="0" style="border:0" allowfullscreen></iframe>                          
+								<iframe width="100%" height="300" src="https://www.google.com/maps?output=embed&q=5A, 97, Sant Savata Mali Marg, Byculla East, Mazgaon, Mumbai, Maharashtra 400027"  height="355" frameborder="0" style="border:0" allowfullscreen></iframe>                          
                            </div>
                         </div>
 				 </div>

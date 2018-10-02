@@ -15,10 +15,15 @@
 	</bean> -->
 	<bean id="datasource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<!-- <property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/fundpro" />
 		<property name="username" value="root" />
-		<property name="password" value="root" />
+		<property name="password" value="root" /> -->
+		 
+		<property name="url" value="jdbc:mysql://localhost:3306/mchurner_fundpro" />
+		<property name="username" value="mchurner_root" />
+		<property name="password" value="gDC+yjX,na-0" />		
+		 
 	</bean>
 	<bean id="userService" class="com.mchurner.service.impl.UserServiceImpl" />
 	<bean id="userDao" class="com.mchurner.dao.impl.UserDaoImpl" />

@@ -56,8 +56,8 @@
 							<p><strong>Original LIC Policy certificate with surrender value</strong></p>
 							
 							<h4>Interest Rate & Charges:</h4>
-							<p>For new member starting from 12% PA</p>
-							<p>If FD/RD depositors want to give their policies as collateral, the rate of interest will be calculated based on the deposit schemes".</p>
+							<p>For new member starting from 12% PA.</p>
+							<p>If FD/RD depositors want to give their policies as collateral, the rate of interest will be calculated based on the deposit schemes.</p>
 
 
 							<div class="table-wrapper">

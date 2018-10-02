@@ -80,7 +80,7 @@
 								<li>Address proof</li>
 								<li>Signature proof</li>
 								<li>PAN Card/Form 60</li>
-								<li>Age proof</li>.
+								<li>Age proof</li>
 							</ul>
 							
 							<div class="table-wrapper">

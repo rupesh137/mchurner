@@ -79,8 +79,8 @@
 			
 									 <p>The best way to predict the feature is to create it. The Mchurner Recurring Deposit is designed for you to achieve your goals on your own terms. This deposit gives you the freedom to choose a Term & Amount you wish to invest every month and earn Guaranteed Return at applicable interest rate. Make the smart choice and maximize your returns from your savings now.</p> 
 									 
-									 <p>The best way to predict the feature is to create it.</p>  -->
-								   </div>
+									 <p>The best way to predict the feature is to create it.</p>  
+								   </div>-->
 								 </div>
 							</div>
 							<div class="tabContainer tabContainer01">

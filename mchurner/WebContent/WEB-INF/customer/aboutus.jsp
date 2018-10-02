@@ -29,12 +29,6 @@
     	<div class="pgContainer">
         	<div class="abtContainer">
   	 			<div class="container about_us">
-  	 				<div class="row">
-  	 					<p class="text-center">
-  	 						Our principles are the base of our commitments<br/>
-							Our commitments are the base of our honesty
-  	 					</p>
-  	 				</div>
 				<div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h2>Mchurner</h2>

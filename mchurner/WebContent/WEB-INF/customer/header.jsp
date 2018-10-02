@@ -8,6 +8,7 @@
 					    <span><a href="javascript:void(0)">Refer and Earn</a></span>
 				</div>
      	  	 	<div class="navbar-header navbar-default">
+     	  	 		<div class="text-center company-name-header">Mchurner <br/>Nidhi Limited</div>
 					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -45,6 +46,14 @@
                            <a href="#" class="logBtn">Login</a> | <a href="#" class="regBox">Registration</a>						   
 						</div>
                     </li>
+                    <!-- <li>
+					    <div class="userName">
+                           <a href="#">User Name</a> 				   
+						</div>
+						 <div class="ddBox">
+						    <span>Logout</span>
+						 </div>
+                    </li> -->
 					<li>
 					 	<a href="#" style="color:#177ba9;">Refer and Earn</a>
                     </li>

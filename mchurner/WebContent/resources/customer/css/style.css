@@ -91,7 +91,7 @@ body{font-family:'Poppins', sans-serif; color:#000000; font-size:100%; font-size
 .ourProductContainer .tabList ul li a:hover, .ourProductContainer .tabList ul li a.activeTab{color:#51b2e5; background:none; font-weight:500;letter-spacing: 0.6px;}
 .ourProductContainer .tabList ul li a.activeTab{border-bottom:1px solid #51b2e5;}
 
-.ourProductContainer .tabContainer .tabData, .scContainer .tabContainer .tabData{overflow:hidden; margin:0 auto; width:80%; padding:30px; border:1px solid #e2e2e2; text-align:center;}
+.ourProductContainer .tabContainer .tabData, .scContainer .tabContainer .tabData{overflow:hidden; margin:0 auto; width:85%; padding:30px; border:1px solid #e2e2e2; text-align:center;}
 .tabInfoHold{overflow:hidden; padding:0 0 50px 0}
 .tabContainer .tabData h3{color:#000000; font-size:32px; font-weight:600; margin:0 0 10px 0;}
 .boxData{margin-bottom:25px;}
@@ -114,7 +114,7 @@ body{font-family:'Poppins', sans-serif; color:#000000; font-size:100%; font-size
 
 .viewtn {
 	font-size: 13px;
-	background: #0066ff;
+	background: #3ea6ff;
 	padding: 4px 12px;
 	color: #fff;
 	border-radius: 5px;
@@ -386,16 +386,16 @@ a.newAc span{display:inline-block; border-bottom:1px solid #21a1db}
     font-size: 12px;
 }
 .gl{
-    color:#ffaf00!important
+    color:#21a1db!important
 }
 .ml{
-    color:#289eda!important
+    color:#21a1db!important
 }
 .lap{
-    color:#175ca1!important
+    color:#21a1db!important
 }
 .vl{
-    color:#ff7800!important
+    color:#21a1db!important
 }
 /*new css*/
 .tabContHold01{
@@ -404,6 +404,12 @@ a.newAc span{display:inline-block; border-bottom:1px solid #21a1db}
 .tabContainer01{
     display: inline-block!important;
     width: 100%!important;
+}
+
+th{
+	background-color: #435d7d;
+	color: #fff;
+	text-align: center!important;
 }
 
 @media screen and (max-width:1024px){
@@ -478,13 +484,15 @@ a.newAc span{display:inline-block; border-bottom:1px solid #21a1db}
 	.prodBtn input, .readBtn input, .readBtn a, .submitBtn input{padding:10px 15px;}
 	.uploadBtn{width:auto}
 	.sub-menu{display:none;}
-	.mapHold iframe{width:100%}
+	.mapHold iframe{width:100%}	
 }
 
 @media screen and (max-width:600px){
 	.pgContainer h2{font-size:20px;}
 	.ourProductContainer, .productLoan{padding-bottom:200px}
 	.productLoan .img-responsive {margin:15px 0;}
+     .company-name-header {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 15px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
+     .logo img {width: 43%;}
 
 }
 
@@ -492,20 +500,26 @@ a.newAc span{display:inline-block; border-bottom:1px solid #21a1db}
     .profile-circle img{
             width: 25%;
     }
+     .company-name-header  {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 15px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
+     .logo img {width: 43%;}
 }
 
 @media screen and (max-width:500px){
 	.dateHold .dtCol {clear:both; float:none; width:100%;}
 	.dateHold .dtCol  h6 {padding-top:0}
+     .company-name-header  {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 15px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
+     .logo img {width: 43%;}
 }
 
 @media screen and (max-width:380px){
-	.ftMenu ul li a {padding:6px 3px; font-size:14px;}
+	.ftMenu ul li a {padding:6px 3px; font-size:12px;}
 	.formContainer{width:90%;}
 	.ourProductContainer, .productLoan{padding-bottom:150px}
+     .company-name-header  {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 15px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
+     .logo img {width: 43%;}
 }
 
-
+.company-name-header {margin: 0 auto;display: inline-block;margin-top: 12px;font-size: 20px;color: #21a1db;font-family: 'poppins';font-weight: 600;}
 
 
 

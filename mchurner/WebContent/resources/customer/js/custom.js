@@ -57,9 +57,9 @@ $(document).ready(function(e) {
 		actPos = $(this).parent().offset().top - 30;
         expandPos = $(this).parent().siblings().find('.tabData').outerHeight(true);
         
-			$(this).parent().siblings('.tabContainer').find('.tabData').slideUp(500);	
-			$(this).parent().find('.tabData').slideDown(500);
-          $("html, body").animate({ scrollTop: actPos }, 500);
+		$(this).parent().siblings('.tabContainer').find('.tabData').slideUp(500);	
+		$(this).parent().find('.tabData').slideDown(500);
+		$("html, body").animate({ scrollTop: actPos }, 500);
 
     });
 	

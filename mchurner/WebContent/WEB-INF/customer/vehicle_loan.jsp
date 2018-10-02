@@ -53,7 +53,7 @@
 							<h4>Eligibility</h4>
 								<ul>
 									<li>Resident individuals (Maharashtra state only)</li>
-									<li>RShould be a member of Mchurner</li>
+									<li>Should be a member of Mchurner</li>
 									<li>Income eligibility based on latest salary slips and Form 16</li>
 									<li>Repayment Capacity</li>
 									<li>Liabilities</li>

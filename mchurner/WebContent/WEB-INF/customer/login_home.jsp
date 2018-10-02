@@ -1,19 +1,11 @@
 ﻿﻿<!DOCTYPE HTML>
-<html>
+<html ng-app="mchurnerApp" ng-controller="transactionController">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mchurner</title>
-<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/bootstrap.min.css">
-<!--link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"--> 
-<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/jquery-ui.css">
-<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/custresources/css/style.css">
-
-<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/jqueryMin.js"></script>
-<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/jquery-ui.js"></script>
-<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/bootstrap.min.js"></script>
-<script type="text/javascript" language="javascript"  src="${pageContext.request.contextPath}/custresources/js/custom.js"></script>
+<%@ include file="commonResourceLink.jsp" %>
 
 <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
@@ -23,7 +15,7 @@
 </head>
 <body>
 <div class="wrapper">
- <div class="mainHeader">
+ <%-- <div class="mainHeader">
     	   <div class="container">
           	<div class="row">
 				<div class="logo pull-left">
@@ -80,8 +72,8 @@
                 </div>
             </div>
      	 </div>
-    </div>
-	
+    </div> --%>
+	 <%@ include file="header.jsp" %>
 	
     	 
     
@@ -95,7 +87,7 @@
         </div>
     </div> -->
 
-    <div class="innerContentHold">
+    <div class="innerContentHold" >
        <div class="pgContainer">
           <div class="scContainer">
   	 		 <div class="container">
@@ -112,7 +104,7 @@
                                 <li><a href="#">Refer and Earn</a></li>
 							 </ul>
 						 </div>
-						 <div class="tabContHold">
+						 <div class="tabContHold" >
 						    <div class="tabContainer">
 							    <h4>Share Certificate</h4>
 								 <div class="tabData">
@@ -131,25 +123,11 @@
 											 </tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td>xxxx123</td>
-												<td>02/03/2018</td>
-												<td>10</td>
-												<td>100</td>
-												<td><a href="#" class="viewtn">View</a></td>
-											</tr>
-											<tr>
-												<td>xxxx456</td>
-												<td>02/03/2018</td>
-												<td>50</td>
-												<td>200</td>
-												<td><a href="#" class="viewtn">View</a></td>
-											</tr>
-											<tr>
-												<td>xxxx789</td>
-												<td>02/03/2018</td>
-												<td>70</td>
-												<td>500</td>
+											<tr ng-repeat="data in shareData">
+												<td ng-bind="data.shareId"></td>
+												<td ng-bind="data.purchaseDate"></td>
+												<td ng-bind="data.noOfShare"></td>
+												<td ng-bind="data.noOfShare * data.eachSharePrice"></td>
 												<td><a href="#" class="viewtn">View</a></td>
 											</tr>
 										 </tbody>
@@ -224,83 +202,83 @@
 												<th class="txtRH">Amount of deposit</th>
 												<th>Period</th>
 												<th>Deposit date</th>
+												<th>Maturity date</th>
 												<th>Rate of interest</th>
 												<th>Maturity amount</th>
 												<th></th>
 											 </tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td>xxxx123</td>
-												<td class="txtRH">Rs. 50,000.00</td>
-												<td>36 Month</td>
-												<td>25/03/2018</td>
-												<td></td>
-												<td></td>
+											<tr ng-repeat="data in FDData">
+												<td ng-bind="data.accountNo"></td>
+												<td class="txtRH" ng-bind="'Rs. '+data.depositAmt"></td>
+												<td ng-bind="data.tenure+' months'"></td>
+												<td ng-bind="data.startDate"></td>
+												<td ng-bind="data.maturityDate"></td>
+												<td ng-bind="data.interestRate"></td>
+												<td ng-bind=""></td>
 												<td><a href="#" class="viewtn">View</a></td>
-											</tr>
-											<tr>
-												<td>xxxx456</td>
-												<td class="txtRH">Rs. 1,00,000.00</td>
-												<td>36 Month</td>
-												<td>25/03/2018</td>
-												<td></td>
-												<td></td>
-												<td><a href="#" class="viewtn">View</a></td>
-											</tr>
-											<tr>
-												<td>xxxx789</td>
-												<td class="txtRH">Rs. 70,000.00</td>
-												<td>36 Month</td>
-												<td>25/03/2018</td>
-												<td></td>
-												<td></td>
-												<td><a href="#" class="viewtn">View</a></td>
-											</tr>
+											</tr>											
 										 </tbody>
 										</table>
 										</div>
 										<div class="submitBtn">
-												<input value="Book new FD" class="bookFD" type="button">
+												<input value="Book new FD" class="bookFD" type="button" data-toggle="modal" data-target="#addNewFD">
 											</div>
-											
-										<div class="newFD">
-											<div class="row">
-												<div class="col-lg-3">
-												  <label>Amount :</label>
-												</div>
-												<div class="col-lg-9">
-												  <input type="text" class="form-control">
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-lg-3">
-												  <label>Tenure :</label>
-												</div>
-												<div class="col-lg-9">
-												  <select class="form-control paymentMode">
-													   <option value="1">1</option>
-													   <option value="2">2</option>
-													   <option value="3">3</option>
-													</select>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-lg-3">
-												  <label>Maturity :</label>
-												</div>
-												<div class="col-lg-9">
-												  <input type="text" class="form-control">
-												</div>
-											</div>
-											<div class="submitBtn">
-												<input value="Make a payment" class="" type="button">
-											</div>
-										</div>
-									</div>
-								   </div>
-								 </div>
+									
+									
+		<div class="modal fade addNewFD" id="addNewFD" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Book New FD</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">								
+						<div class="newFD">
+							<div class="row">
+								<div class="col-lg-4">
+								  <label>Amount :</label>
+								</div>
+								<div class="col-lg-5">
+								  <input type="text" class="form-control">
+								</div>
 							</div>
+							<div class="row">
+								<div class="col-lg-4">
+								  <label>Tenure :</label>
+								</div>
+								<div class="col-lg-5">
+								  <select class="form-control paymentMode">
+									   <option value="1">1</option>
+									   <option value="2">2</option>
+									   <option value="3">3</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-4">
+								  <label>Maturity :</label>
+								</div>
+								<div class="col-lg-5">
+								  <input type="text" class="form-control">
+								</div>
+							</div>
+							<div class="submitBtn">
+								<input value="Submit" class="" type="button">
+							</div>
+						</div>
+			                </div>
+				            </div>
+				        </div>			
+
+						
+					</div>
+				   </div>
+				 </div>
+			</div>
 							
 							<div class="tabContainer">
 								 <h4>Recurring Deposit</h4>
@@ -349,23 +327,32 @@
 										</table>
 										</div>
 										<div class="submitBtn">
-												<input value="Book new RD" class="bookRD" type="button">
+												<input value="Book new RD" class="bookRD" type="button" data-toggle="modal" data-target="#addNewRD">
 											</div>
-											
+		<div class="modal fade addNewRD" id="addNewRD" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Book New RD</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">									
 										<div class="newRD">
 											<div class="row">
-												<div class="col-lg-3">
+												<div class="col-lg-4">
 												  <label>Monthly Installment :</label>
 												</div>
-												<div class="col-lg-9">
+												<div class="col-lg-8">
 												  <input type="text" class="form-control">
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-lg-3">
+												<div class="col-lg-4">
 												  <label>Tenure :</label>
 												</div>
-												<div class="col-lg-9">
+												<div class="col-lg-8">
 												  <select class="form-control paymentMode">
 													   <option value="1">1</option>
 													   <option value="2">2</option>
@@ -374,25 +361,29 @@
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-lg-3">
+												<div class="col-lg-4">
 												  <label>Loan Requirement After :</label>
 												</div>
-												<div class="col-lg-9">
+												<div class="col-lg-8">
 												  <input type="text" class="form-control">
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-lg-3">
+												<div class="col-lg-4">
 												  <label>Maturity Amount :</label>
 												</div>
-												<div class="col-lg-9">
+												<div class="col-lg-8">
 												  <input type="text" class="form-control">
 												</div>
 											</div>
 											<div class="submitBtn">
-												<input value="Make a payment" class="" type="button">
+												<input value="Submit" class="" type="button">
 											</div>
 										</div>
+									</div>	
+									</div>	
+									</div>	
+										
 									</div>
 								   </div>
 								 </div>
@@ -434,9 +425,18 @@
 										</table>
 										</div>
 										<div class="submitBtn">
-											<input value="Apply for new Loan" class="applyLoan" type="button">
+											<input value="Apply for new Loan" class="applyLoan" type="button" data-toggle="modal" data-target="#addNewLoan">
 										</div>
-										
+						<div class="modal fade addNewLoan" id="addNewLoan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		            <div class="modal-dialog modal-md" role="document">
+		                <div class="modal-content">
+		                    <div class="modal-header">
+		                        <h5 class="modal-title" id="exampleModalLabel">Book New RD</h5>
+		                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                            <span aria-hidden="true">&times;</span>
+		                        </button>
+		                    </div>
+                    <div class="modal-body">						
 										<div class="newLoan">
 											<div class="row">
 												<div class="col-lg-3">
@@ -513,6 +513,11 @@
 												<input value="Submit" class="" type="button">
 											</div>
 										</div>
+									</div>	
+									</div>	
+									</div>	
+										
+										
 										
 									</div>
 								  </div>

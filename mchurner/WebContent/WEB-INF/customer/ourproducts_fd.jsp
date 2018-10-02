@@ -39,6 +39,7 @@
                                 <!-- <li><a href="#" ">Fixed Deposit</a></li> -->
                             	<li><a href="#" class="activeTab">Benefits</a></li>
                                 <li><a href="#">Eligibility</a></li>
+                                <li><a href="#">Interest Rate</a></li>
                                 <li><a href="#">Documents Required</a></li>
                                 <li><a href="#">Charges</a></li>
                                 <li><a href="#">Terms & Conditions</a></li>
@@ -83,6 +84,41 @@
 								   </div>
 								 </div>
 							</div>
+							 
+							 <div class="tabContainer">
+								 <h4>Interest rate</h4>
+								 <div class="tabData">
+								   <div class="dataInfo">
+								    <div class="boxData">
+										<h3>Interest Rate</h3>
+										<div class="table-wrapper">
+											<table class="table table-striped table-hover text-centered">
+													<tr>
+														<th>Deposit Tenure</th>
+														<th>Rate of Interest</th>
+														<th>Rate of Interest for Senior Citizen</th>
+													</tr>
+													<tr>
+														<td>12 Months </td>
+														<td>8.0 %</td>
+														<td>8.5 %</td>
+													</tr>	
+													<tr>
+														<td>13 Months to 24 Months</td>
+														<td>8.5 %</td>
+														<td>9.0 %</td>
+													</tr>
+													<tr>
+														<td>25 months to 36 months</td>
+														<td>9.0 %</td>
+														<td>9.5%</td>
+													</tr>								
+											</table>
+										</div> 
+									</div>									
+								   </div>
+								 </div>
+                            </div>
 							 
 							<div class="tabContainer">
 								<h4>Documents Required</h4>
